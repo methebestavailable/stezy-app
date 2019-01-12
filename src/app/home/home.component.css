@@ -1,0 +1,240 @@
+
+
+/* business-section */
+.business_div{
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    text-align: center;
+    padding: 40px 0;
+    margin: 14px 0;
+}
+.business_div h6{
+    font-weight: 800;
+    margin: 16px 0;
+    font-size: 18px;
+}
+.business_div p{
+    line-height: .3;
+    font-size: 14px;
+    color: #ccc;
+}
+.heading_div{
+    margin-top: 50px;
+}
+.heading_div p{
+    font-weight: 800;
+    line-height: 1.4;
+    font-size: 27px;
+    padding: 0 180px
+}
+.box_div{
+    padding:12px 0;
+}
+/*end business-section */
+.text{
+    text-align: center;
+}
+section.domains_div {
+    padding: 40px 0;
+    border-top: 1px solid #ccc;
+    margin-top: 50px;
+}
+.domains_div p{
+    line-height: .5;
+
+}
+.domains_div h3{
+    margin: 20px 0;
+    font-weight: 800;
+}
+.testimonialcontainer{
+    margin: 0px auto;
+    padding: 0px 30px;
+}
+.testimonialbox{
+       background:url("../../assets/testimonial_icons.png") no-repeat 40px 20px;
+       border: 0px solid #fff !important;
+       font-size: 14px;
+       position: relative;
+       margin: 30px;
+       overflow: hidden;
+       padding: 20px;
+       border-radius: 10px;
+}
+.testimonialbox:hover{
+    box-shadow: 0px 0px 20px #ccc;
+}
+.testiimgbox img{
+    width:84px;
+    height: 84px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px auto 40px auto;
+}
+.testitestbox{
+    margin-bottom: 40px;
+}
+.testitestbox p{
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+}
+.testilogo{
+    text-align:center;
+    height: 53px;
+    line-height: 53px;
+}
+.peoplename{
+    color:#4385f5;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.testilogo img {
+    max-height: 53px;
+    max-width: 100%;
+    object-fit: contain;
+}
+.patnercontainer{
+     background: #f3f6fd;
+     padding:40px 0px;
+}
+.partenrgbox img{
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+.patnercontainer h3{
+    margin-bottom: 0px;
+}
+.margintop{
+    margin-top: 50px;
+}
+.rowdash{
+ max-width: 50%;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    top: 72px;
+    border: 1px dashed #fff;
+    position: absolute;
+}
+.implement{
+    background:url("../../assets/try.png") no-repeat;
+    margin-top: 100px;
+    padding:24px 0 24px 0;
+    position: relative;
+}
+.impbox p{
+    color: #fff;
+    font-size: 30px;
+}
+.margin_top16{
+    margin-top: 16px;
+}
+/* try_us */
+.try_us{
+    text-align: center;
+    background-image:url("../../assets/try.png");
+    margin-bottom: 50px;
+}
+.try_us h3 {
+    color: #fff;
+    padding: 40px 0 0 0;
+}
+.try_us h6{
+    color: #fff;
+    font-size: 18px;
+}
+.try_us p{
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 0;
+}
+.sign_btn{
+    color: #4385f5;
+    background: #fff;
+    border: none;
+    padding: 16px 30px;
+    border-radius: 50px;
+    margin: 0px 0 44px 0;
+    font-size: 11px;
+    font-weight: 800;
+}
+.latest_update {
+    text-align: center;
+}
+
+/* slider_text */
+.slider_text{
+    /* background:url("../../assets/valuebg1.jpg") no-repeat bottom right; */
+
+    position: relative;
+}
+.s_number{
+    color: #fff !important;
+    padding:0px;
+    font-size: 11px;
+}
+h2.s_number:after {
+    content: "";
+    position: absolute;
+    border-bottom: 2px solid #ccc;
+    width: 20px;
+    height: 1px;
+    left: 0;
+    bottom: -5px;
+}
+h2.s_number {
+    position: relative;
+}
+.trade_heading{
+    color: #fff !important;
+    padding:0px;
+}
+.trade_list{
+    color: #fff;
+    list-style-type:none;
+    margin: 0px;
+    padding: 0px;
+}
+.trade_list li .fa{
+    padding: 0 8px 0 0;
+    font-size: 22px;
+}
+.trade_list li{
+    background: url("../../assets/arrow.png")no-repeat 0px 5px;
+    font-size: 14px;
+    margin: 10px 0;
+    padding-left: 15px;
+}
+.slider_text a{
+    padding: 0px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-bottom: 1px solid #e5e5e5;
+    display: inline-block;
+    margin-top: 20px;
+}
+.nopadd{
+    padding: 0px;
+}
+.slideimgbox{
+position: absolute;
+z-index: -1;
+}
+.slideimgbox img{
+    object-fit: cover;
+}
+.slidecontent{
+    padding: 200px 40px 40px 40px;
+}
+.arrow_bg{
+    width: 1.5% !important;
+    position: relative;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}

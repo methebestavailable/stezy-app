@@ -1,0 +1,103 @@
+.banner{
+    background:#e7eefc;
+}
+p.stezy_div {
+    color: #5c5e64;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 150px 0 0 0;
+}
+.banner h5 {
+    color: #4385f5;
+    font-weight: 800;
+}
+p.help_div{
+    color: #5c5e64;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: .5;
+}
+.line_img {
+    width: 50px;
+}
+
+
+/* vission & mission */
+
+
+h4.vision_heading {
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 60px;
+}
+.mission_div {
+    margin: 70px 0;
+}
+.image_div{
+    text-align: center;
+}
+.vision_contant{
+    color:#81899e;
+}
+.team_leader{
+    text-align: center;
+    margin: 20px 0;
+}
+.leadership_heading{
+    text-align:center;
+}
+.leadership_heading h3 {
+    font-size: 27px;
+    font-weight: 800;
+}
+.leadership_heading p {
+    color: #81899e;
+    padding: 0 340px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.team_leader img {
+    width: 150px;
+}
+.team_leader h5 {
+    font-size: 18px;
+    margin: 12px 0 0 0;
+    color: #2a2a31;
+}
+.team_leader p {
+    font-size: 15px;
+    color: #81899e;
+}
+.join_our{
+    text-align:center;
+}
+button.join_btn {
+    background: #4385f5;
+    border: none;
+    color: #fff;
+    padding: 12px 22px;
+    border-radius: 50px;
+    font-size: 10px;
+}
+.join_our{
+    margin: 40px 0;
+}
+.join_our{
+    margin: 20px 0 70px 0;
+}
+
+/* careers_heading */
+.career_div{
+    background: #e7eefc;
+}
+.careers_heading{
+    text-align:center;
+}
+.career_list{
+    list-style-type:none;
+}
+h3 {
+    font-size: 27px;
+    font-weight: 800;
+    margin: 34px 0 0 0;
+}

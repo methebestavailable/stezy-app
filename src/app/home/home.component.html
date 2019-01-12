@@ -1,0 +1,184 @@
+<app-header></app-header>
+<app-banner></app-banner>
+<div class="implement">
+    <div class="container">
+        <div class="row">
+          <div class="rowdash"></div>
+          <div class="col-md-4 col-sm-4 col-xs-4">
+              <div class="impbox text-center">
+                  <img src="../../assets/ideate_bg.png" alt="">
+                  <p class="margin_top16">Ideate</p>
+              </div>
+          </div>
+          <div class="col-md-4 col-sm-4  col-xs-4">
+          <div class="impbox text-center">
+                  <img src="../../assets/innovte_bg.png" alt="">
+                  <p class="margin_top16">Innovate</p>
+          </div>
+          </div>
+          <div class="col-md-4 col-sm-4  col-xs-4">
+          <div class="impbox text-center">
+                  <img src="../../assets/impl_bg.png" alt="">
+                  <p >Implement </p>
+          </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+      <div class="container">
+        <div class="col-md-12 heading_div">
+          <p>We help to Accelerate innovation and transform Your business networks with blockchain Solutions.</p>
+        </div>  
+        <div class="row box_div">
+            <div class="col-md-4 col-sm-6 col-xs-12 contant_heading">
+                <div class="business_div">
+                    <img src="../../../assets/ok.png">
+                    <h6>Enterprise Ready</h6>
+                    <p>Scalable, Secure and Robust Platform</p>
+                    <p>for rapid Prototyping and easy</p>
+                    <p> Production Deployment</p>
+                </div>  
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12 contant_heading">
+                  <div class="business_div">
+                      <img src="../../../assets/s.png">
+                      <h6>Optimized Cost</h6>
+                      <p>Stezy’s platform helps companies save</p>
+                      <p>cost to build and maintain the</p>
+                      <p> Blockchain Network</p>
+                  </div>  
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12 contant_heading">
+                  <div class="business_div">
+                      <img src="../../../assets/time.png">
+                      <h6>Reduced Time</h6>
+                      <p>Helps to reduce time and effort to build</p>
+                      <p>a Decentralized Application and Smart</p>
+                      <p>Contracts</p>
+                  </div>  
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12 contant_heading">
+                  <div class="business_div">
+                      <img src="../../../assets/platform.png">
+                      <h6>Developer Friendly Platform</h6>
+                      <p>Stezy's platform is fully Automated to</p>
+                      <p>create private and consortium</p>
+                      <p> blockchain, Smart Contract and Dapps</p>
+                      <p> without much developer Intervention</p>
+                  </div>  
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12 contant_heading">
+                  <div class="business_div">
+                      <img src="../../../assets/trust.png">
+                      <h6>Trust & Transparency</h6>
+                      <p>With Immutable Ledger and real time</p>
+                      <p>transaction's, Stezy promises to foster</p>
+                      <p>Greater Transparency and Trust for our</p>
+                      <p>Customers</p>
+                  </div>  
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12 contant_heading">
+                  <div class="business_div">
+                      <img src="../../../assets/api.png">
+                      <h6>API</h6>
+                      <p>With one click deploy, companies can</p>
+                      <p>integrate Blockchain stack using our API</p>
+                      <p>into their existing Applications.</p>
+                      <p>Customers</p>
+                  </div>  
+              </div>
+        </div>  
+      </div>
+<section class="domains_div">
+  <div class="container-fluid nopadd">
+        <div class="col-md-12 latest_update">
+            <h3>Enabling Value creation across Domains</h3>
+            <p>Stezy Platform provides solutions across domains ranging from Supply Chain,</p>
+            <p>Healthcare, Financial services, Government, Legal, Insurance, Agriculture, Energy,</p>
+            <p>Retail & logistics and Many more.</p>
+        </div>
+    <owl-carousel-o [options]="customOptionsTwo" (initialized)="getDataA($event)">
+      <ng-container *ngFor="let slide of slidesStoreA">
+        <ng-template carouselSlide="1">
+          <div class="slider_text">
+           <div class="slideimgbox"><img [src]="slide.backgroundimg" [alt]="slide.backgroundimg"></div> 
+            <div class="slidecontent">
+            <h2 class="s_number">{{slide.number}}</h2>
+            <h3 class="trade_heading">{{slide.heading}}</h3>
+            <ul class="trade_list">
+              <li> <img [src]="slide.arrow" class="arrow_bg" alt=""> {{slide.listi}}</li>
+              <li> <img [src]="slide.arrow" class="arrow_bg" alt=""> {{slide.listii}}</li>
+              <li> <img [src]="slide.arrow" class="arrow_bg" alt="">{{slide.listiii}}</li>
+            </ul>
+            <a href="#">{{slide.learmore}}</a>
+            </div>
+          </div>  
+        </ng-template>
+      </ng-container>
+    
+    </owl-carousel-o>
+    
+    </div>
+</section>  
+<div class="patnercontainer">
+<div class="container ">
+        <div class="col-md-12 latest_update">
+            <div class="">
+                <h3>Our Partners</h3>
+                <owl-carousel-o [options]="customOptions" (initialized)="getDataB($event)"> 
+                    <ng-container *ngFor="let slide of slidesStoreB">
+                    <ng-template carouselSlide="1">
+                        <div class="partenrgbox">
+                            <img [src]="slide.src" [alt]="slide.alt">
+                            <!-- <img src="../../../assets/microsoft_img.png" class="img-responsive"/> -->
+                        </div>
+                    </ng-template>
+                </ng-container>
+                </owl-carousel-o>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container margintop">
+    <div class="row">
+        <div class="col-md-12 latest_update">
+            <div class="testimonialcontainer">
+                <h3>What people say about us</h3>
+                <owl-carousel-o [options]="customOptionsThree" (initialized)="getDataC($event)">
+                <ng-container *ngFor="let slide of slidesStoreC">
+                    <ng-template carouselSlide="1">
+                    <div class="testimonialbox">
+                        <div class="testiimgbox">
+                            <img [src]="slide.src" [alt]="slide.alt" />
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="testitestbox">
+                            <p>{{slide.text}}</p>
+                            <p class="peoplename">{{slide.name}}</p>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="testilogo">
+                            <img src="{{slide.logo}}"/>
+                        </div>
+                    </div>
+                    </ng-template>
+                </ng-container>
+                </owl-carousel-o>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="try_us">
+  <div class="container">
+    <div class="try_contant">
+      <h3>Try Us.</h3>
+      <h6>You will love Stezy experience.</h6>
+      <p>Start your 30-day free trial.No credit card required.No strings attached.</p>
+      <button class="sign_btn">SIGN UP FOR FREE</button>
+    </div>  
+  </div>  
+</section>  
+
+<app-newletter></app-newletter>
+<app-footer></app-footer>

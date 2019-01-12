@@ -1,0 +1,47 @@
+.height100{
+    height: 100px;
+}
+.navbar-brand p{
+    font-size: 12px     
+}
+.navbar-brand img{
+     margin-top: 15px;
+}
+.login_user {
+    margin-left:100px;
+}
+.login_user ul{
+    margin: 0;
+    padding: 0;
+}
+.login_user ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.navbar-nav {
+    margin-left: 100px;
+}
+.navbar-nav li{
+    margin-right: 40px;
+}
+.navbar-nav li a{
+    color: #000;
+    font-weight: 700;
+}
+.login_person{
+    margin-right: 30px;
+}
+.login_person a{
+    font-weight: 700;
+    text-decoration: none;
+}
+.get_start button{
+    background: #4385f5;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+    padding: 8px 15px 10px 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+}

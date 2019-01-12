@@ -1,0 +1,45 @@
+.banner {
+  background: #e7eefc;
+  padding-top: 100px;
+  position: relative;
+  height: 460px;
+}
+.block_para {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+  position: relative;
+}
+.block_para:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 50px;
+  height: 3px;
+  width: 60px;
+  background: #6e6e80;
+}
+.empower_para{
+  width: 80%;
+  margin-top: 50px;
+  font-size: 18px;
+}
+.position_abso{
+  position: absolute;
+  right: 50px;
+}
+.sign_bt{
+  margin-top: 50px  
+}
+.sign_bt button{
+  background: #4385f5;
+  border: none;
+  color: #fff;
+  border-radius: 20px;
+  padding: 8px 15px 10px 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+  margin-right: 15px;
+}

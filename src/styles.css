@@ -1,0 +1,129 @@
+.owl-nav .owl-next{
+    background: url("./assets/next.png") transparent  100%!important;
+    right: 40px!important;
+    left: inherit!important;
+    float: left;
+    width: 50px;
+    height: 50px;
+    outline: none!important;
+    border-radius: 50%!important;
+    border:0px solid #e5e5e5;
+    font-size: 40px;
+    position: absolute;
+    top:25%;
+    }
+.owl-nav .owl-prev{
+    background: url("./assets/pre.png") transparent 100%!important;
+    left: 40px!important;
+    right: inherit!important;
+    float: right;
+    width: 50px;
+    height: 50px;
+    outline: none!important;
+    border-radius: 50%!important;
+    border:0px solid #e5e5e5;
+    font-size: 40px;
+    position: absolute;
+    top:25%;
+}
+
+.owl-theme .owl-nav .disabled{
+    opacity: 0!important;
+}
+@media(max-width:1100px){
+    .navbar-nav li {
+        margin-right: 0px!important;
+    }
+    .slidecontent{
+        padding: 100px 40px 40px 40px!important;
+    }
+    .owl-nav .owl-prev,.owl-nav .owl-next{
+        top:8%!important;
+    }
+}
+@media(max-width:767px){
+    .height100{
+        min-height: 100px;
+        height: auto!important;
+    }
+    .login_user ul li {
+        list-style-type: none;
+        display: block;
+    }
+    .banner {
+        padding-top: 50px!important;
+        height: auto!important;
+      }
+    .position_abso {
+        display: none;
+    }
+    .mobTexcenter{
+        text-align: center;
+    }
+    .block_para:after {
+        right: 0;
+        margin: 0 auto;
+        top:65px!important;
+    }
+    .sign_bt button{
+        margin-bottom: 15px;
+    }
+    .empower_para{
+        width: 100% !important;
+    }
+    .implement{
+        margin-top:0px !important;
+        padding: 60px 0 !important;
+        background-size: cover!important;
+    }
+    .impbox {
+        margin-bottom: 20px;
+    }
+    .heading_div p{
+        padding:30px 0px 0px 0px !important;
+        font-size:16px!important;
+    }
+    .business_div{
+        max-width: 90%;
+        margin:15px auto!important;
+    }
+    .business_div p{
+        font-size: 12px !important;
+    }
+    section.domains_div{
+        margin-top:10px!important;
+        padding-bottom: 0px!important;
+    }
+    .domains_div h3{
+        margin-top: 0px!important;
+    }
+    .domains_div p, .latest_update p{
+        line-height: normal!important;
+    }
+    .slidecontent{
+        padding: 100px 40px 40px 40px!important;
+    }
+    .owl-nav .owl-prev,.owl-nav .owl-next{
+        top:8%!important;
+    }
+    .patnercontainer  .owl-nav .owl-prev{
+        left: 10px!important;
+    }
+    .patnercontainer  .owl-nav .owl-next{
+        right: 10px!important;
+    }
+    .testimonialbox{
+        box-shadow: 0px 0px 20px #ccc;
+        margin: 10px!important;
+    }
+    .mtextcenter{
+        text-align: center!important;
+    }
+    .footer_contant{
+        margin-bottom: 20px;
+    }
+    .box_div{
+        margin-left: 0px!important;
+        margin-right: 0px!important;
+    }
+}
