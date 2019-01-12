@@ -51,3 +51,13 @@ button.subscribe {
     line-height: .4;
     font-size: 16px;
 }
+section.newletter {
+    border-top: 1px solid #e5e5e5;
+    padding: 60px 0 20px 0;
+}
+@media only screen and (max-width: 375px) {
+    
+section.newletter[_ngcontent-c3] {
+    padding: 60px 0 0 0;
+} 
+}
