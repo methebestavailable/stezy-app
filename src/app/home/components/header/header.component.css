@@ -35,6 +35,9 @@
     font-weight: 700;
     text-decoration: none;
 }
+.login_person a:hover{
+    color: #ea4235 !important;
+}
 .get_start button{
     background: #4385f5;
     border: none;
@@ -63,4 +66,7 @@
     .login_user ul li{
         margin: 10px;
     }
+}
+.nav-link:hover{
+    color: #4385f5 !important;
 }

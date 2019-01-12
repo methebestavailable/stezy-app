@@ -238,3 +238,6 @@ z-index: -1;
     right: 15px;
     cursor: pointer;
 }
+.slide_text{
+    min-height: 160px;
+}

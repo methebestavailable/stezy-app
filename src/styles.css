@@ -30,6 +30,11 @@
 .owl-theme .owl-nav .disabled{
     opacity: 0!important;
 }
+.modal-dialog{
+    max-width: inherit !important;
+    width:85%!important;
+}
+
 @media(max-width:1100px){
     .navbar-nav li {
         margin-right: 0px!important;

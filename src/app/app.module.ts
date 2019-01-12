@@ -11,6 +11,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { AboutComponent } from './about/about.component';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,8 @@ import { LocationStrategy, HashLocationStrategy } from '@angular/common';
     AppRoutingModule,
     HomeModule,
     CarouselModule,
-    BrowserModule
+    BrowserModule,
+    NgbModule
   ],
   providers: [
     {provide: LocationStrategy, useClass: HashLocationStrategy},

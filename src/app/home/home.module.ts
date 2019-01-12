@@ -9,7 +9,6 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NewletterComponent } from '../newletter/newletter.component';
 
-
 @NgModule({
   declarations: [
     HomeComponent, 
@@ -17,7 +16,6 @@ import { NewletterComponent } from '../newletter/newletter.component';
     FooterComponent, 
     BannerComponent,
     NewletterComponent,
-  
   ],
   imports: [
     CommonModule,

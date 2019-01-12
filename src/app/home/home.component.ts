@@ -75,43 +75,43 @@ constructor() {
       heading: "Supply Chain",
       listi: "Create a shared ledger as the single source of truth",
       listii: "Upload data into the shared ledger  via human or self-managed inputs",
-      listiii: "Upload data into the shared ledger  via human or self-managed inputs",
+      listiii: "Each participant has their own version of the ledger and there is a weak integration between them",
       learmore: "Learn More"
     },
     {
       backgroundimg: "../../../assets/valuebg3.jpg",
       number: "03",
-      heading: "Trade Finance", 
-      listi: "Use Blockchain ledger us a single source of truth and allowing access to all authorized parties",
-      listii: "Focus on utilizing smart contracts to manage letters of Credit (LoC) or BoL status",
-      listiii: "Early actions based on smart contract status notification",
+      heading: "Know your customer", 
+      listi: "Improve onboarding experience for new customers",
+      listii: "Centralizing the KYC process increase efficiency and cost-effectiveness",
+      listiii: "Increased customer control over how their data is accessed and shared",
       learmore: "Learn More"
     },
     { 
       backgroundimg: "../../../assets/valuebg1.jpg",
       number: "04",
-      heading: "Supply Chain",
-      listi: "Create a shared ledger as the single source of truth",
-      listii: "Upload data into the shared ledger  via human or self-managed inputs",
-      listiii: "Upload data into the shared ledger  via human or self-managed inputs",
+      heading: "Digital Asset Transfer",
+      listi: "Intermediary will initially support the process playing the role of the ledger",
+      listii: "Subsequent steps will limit the role of the intermediary and replace with automated smart contract features",
+      listiii: "Removal of costly intermediaries",
       learmore: "Learn More"
     },
     {
       backgroundimg: "../../../assets/valuebg2.jpg",
       number: "05",
-      heading: "Trade Finance", 
-      listi: "Use Blockchain ledger us a single source of truth and allowing access to all authorized parties",
-      listii: "Focus on utilizing smart contracts to manage letters of Credit (LoC) or BoL status",
-      listiii: "Early actions based on smart contract status notification",
+      heading: "HealthCare", 
+      listi: "Personal health information management",
+      listii: "Secure patient data sharing",
+      listiii: "Insurance claim adjudication",
       learmore: "Learn More"
     },
     { 
       backgroundimg: "../../../assets/valuebg3.jpg",
       number: "06",
-      heading: "Supply Chain",
-      listi: "Create a shared ledger as the single source of truth",
-      listii: "Upload data into the shared ledger  via human or self-managed inputs",
-      listiii: "Upload data into the shared ledger  via human or self-managed inputs",
+      heading: "Insurance",
+      listi: "Revolutionize the trust that powers Insurance",
+      listii: "Fully automate Underwriting",
+      listiii: "Accelarate the claims settlement",
       learmore: "Learn More"
     },
   ]
@@ -133,19 +133,19 @@ constructor() {
   this.slidesStoreC = [
     {
       name: "Carl Jung",
-      text: "Lorem Ipsum is simply dummy text of the printing an typesetting industry.Lorem Ipsum has been the industry'standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.", 
+      text: "Stezy platform helped us to build the blockchain solution real quick. Thanks for the support we received from the Technical team", 
       src: "../../../assets/people_img1.jpg",
       logo: "../../../assets/elisa_logo1.jpg"
     },
     {
       name: "Samantha Torres",
-      text: "Lorem Ipsum is simply dummy text of the printing an typesetting industry.Lorem Ipsum has been the industry'standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.",
+      text: "We were thinking of building a blockchain solution for supply chain. We found Stezy blockchain from Quora and their Do it yourself blockchain helped us to quickly prototype and in 2 weeks’ time we could deploy in production. Great platform",
       src: "../../../assets/people_img2.jpg",
       logo: "../../../assets/carlton_logo1.jpg"
     },
     {
       name: "Jane Write",
-      text: "Lorem Ipsum is simply dummy text of the printing an typesetting industry.Lorem Ipsum has been the industry'standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.",
+      text: "Stezy blockchain platform helped in saving time, cost, effort with zero maintenance and a very affordable subscription. Thanks to team of going out of box to help us integrate blockchain",
       src: "../../../assets/people_img3.jpg",
       logo: "../../../assets/hasbro.jpg"
 

@@ -43,3 +43,76 @@
   cursor: pointer;
   margin-right: 15px;
 }
+.modal_bg {
+  background: url("../../../assets/request_demo_bg.jpg") no-repeat center center ;
+}
+.modal-header .close {
+  padding: 1rem;
+  margin: -3rem -1rem -1rem auto !important;
+}
+.maxwidth_900{
+  max-width: 900px;
+  margin: auto;
+  padding: 70px 0;
+}
+.modal_bg .modal-title {
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+}
+.form_div {
+  background: #fff;
+  box-shadow: 0px 0px 10px #ccc;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.form11 {
+  margin: 0 auto;
+}
+
+.form_div h5 {
+  text-align: center;
+  margin: 4px 0 24px 0;
+  font-size: 16px;
+}
+
+.input_box img {
+  position: absolute;
+}
+
+.form-group img {
+  position: relative;
+  top: 30px;
+  z-index: 2;
+  left: 5px;
+  width: 15px;
+}
+
+.form-group input {
+  text-indent: 20px;
+}
+
+.user_form {
+  margin: -14px auto;
+}
+
+.submit_btn {
+  background: #4385f5;
+  color: #fff;
+  border-radius: 50px;
+  padding: 9px 40px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  top: 42px;
+}
+
+.padd_right5 {
+  padding-right: 5px !important;
+}
+
+.padd_left5 {
+  padding-left: 5px !important;
+}
+
