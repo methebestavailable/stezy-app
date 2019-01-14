@@ -1,0 +1,301 @@
+/* end banner */
+.product_bg{
+ background :url("../../assets/product_bg.jpg");  
+ position: relative; 
+ background-size: cover;
+}
+.product_content img {
+    width: 100%;
+}
+.product_content{
+    padding:90px 0 0 0;
+    color:#fff;
+}
+.product_content h4 {
+    margin-top: 30px;
+    font-size: 22px;
+}
+.product_content p {
+    margin-top: 30px;
+    padding: 0 80px 0 0;
+}
+.watch_btn{
+    text-align: center;
+}
+.watch_btn{
+    text-align: center;
+    position: relative;
+
+}
+.watch_btn button {
+    position: relative;
+    top: 20px;
+    background: #fff;
+    border: none;
+    box-shadow: 0 0 11px 0 #ccc;
+    border-radius: 50px;
+    padding: 5px 10px;
+    font-size: 10px;
+    color: #4385f5;
+    font-weight: 800;
+}
+.watch_btn img {
+    margin: 0 6px;
+}
+/* end banner */
+
+
+.business_div{
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    text-align: center;
+    padding: 40px 0;
+    margin: 14px 0;
+}
+.business_div h6{
+    font-weight: 800;
+    margin: 16px 0;
+    font-size: 18px;
+}
+.business_div p{
+    line-height: 1.5;
+    font-size: 14px;
+    color: #ccc;
+    padding: 0 60px;
+}
+.heading_div{
+    margin-top: 90px;
+    text-align: center;
+}
+.heading_div p{
+    font-weight: 800;
+    line-height: 1.4;
+    font-size: 27px;
+}
+.box_div{
+    padding:12px 0;
+}
+.platform_div{
+    background:#f3f6fd;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+.platform_img img{
+    width:100%;
+}
+.accountability h4 {
+    font-size: 18px;
+    margin-top: 70px;
+}
+.accountability p {
+    padding:0 400px;
+}
+.platform_div h3 {
+    margin-top: 46px;
+}
+.provide_right{
+    text-align:left;
+}
+.provide_left{
+    text-align: right;
+}
+.provide_left p {
+    line-height: 1.3;
+    font-size: 15px;
+}
+.provide_right p{
+    line-height: 1.4;
+}
+h4.capabilities {
+    margin-top: 112px;
+}
+h4.experties {
+    margin-top: 54px;
+}
+h4.flexibility{
+    margin-top: 104px;
+}
+h4.result {
+    margin-top: 40px;
+}
+/* support_bg */
+.supportbg{
+    background:url("../../assets/supportbg.jpg");
+    text-align:center;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    background-size: cover;
+}
+.supportbg h3 {
+    margin: 40px 0 60px 0;
+}
+.build_contant{
+    text-align: left;
+    margin: 0;
+    padding: 0 10px;
+    margin-top: 60px;
+}
+.build_contant h4 {
+    font-size: 18px;
+    color: #2a2a31;
+}
+.build_contant p{
+    color: #81899e;
+    margin: 20px 0;
+    line-height: 1.4;
+}.blockchain_div{
+    margin-top: 90px;
+}
+.blockchain_contant h4 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+.blockchain_contant p{
+    font-size: 16px;
+    line-height: 1.4;
+    color: #81899e;
+    margin-top: 16px;
+    text-align: left;
+}
+.blockchain_contant a{
+    font-size: 14px;
+    text-align: left;
+    display: block;
+}
+.blockchain_contant img {
+    width: 100%;
+}
+.circal_img{
+    display: none;
+}
+
+@media only screen and (max-width: 960px) {
+    .accountability p{
+        padding: 0 220px;
+    }
+  }
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+    .contant_heading {
+        padding: 0;
+    }
+    .business_div p {
+        line-height: 1.6;
+    }
+   .build_contant {
+        text-align: center;
+        margin: 15px 0 0 0;
+    }
+    .accountability p{
+        padding: 0 ;
+    }
+    .platform_detail {
+        text-align: center;
+    }
+    h4.capabilities{
+        margin-top: 49px;
+    }
+    h4.flexibility {
+        margin-top: 10px;
+    }
+    .blockchain_contant {
+        margin-bottom: 40px;
+    }
+    .product_content {
+        text-align: center;
+        padding: 0;
+    }
+    .product_content p {
+        margin-top: 30px;
+        padding: 0 20px;
+        margin-bottom: 50px;
+    }
+    .heading_div {
+        margin-top: 20px;
+    }
+    .supportbg {
+        margin-top: 20px;
+    }
+    .blockchain_contant p {
+        text-align: center;
+        padding: 0 20px;
+    }
+    .blockchain_contant a {
+        text-align: center;
+    }
+    .platform_div {
+        margin-top: 20px;
+    }
+    .business_div p{
+         padding: 0;
+    }
+    .business_div {
+        min-height: 329px;
+    }
+    .circal_img{
+        display:block;
+        margin: 50px auto;
+    }
+    .platform_img img{
+        display: none;
+    }
+    .platform_div{
+        padding-bottom: 50px;
+    }
+  }
+  @media only screen and (max-width: 414px) {
+    .product_content{
+        padding: 50px 0 0 0;
+        text-align: center;
+    }
+    .product_content p{
+        padding: 0 30px;
+    }
+    .accountability p {
+        padding: 0;
+    }
+    .platform_detail {
+        text-align: center;
+    }
+    .circal_img{
+        display:block;
+        margin: 50px auto;
+    }
+    .platform_img img{
+        display: none;
+    }
+    .platform_div{
+        padding-bottom: 50px;
+    }
+    .blockchain_contant img{
+        width:100%;
+    }
+}
+  @media only screen and (max-width: 375px) {
+   .product_content {
+        text-align: center;
+        padding: 0;
+    }
+    .product_content p {
+        margin-top: 30px;
+        padding: 0 20px;
+        margin-bottom: 50px;
+    }
+    .heading_div {
+        margin-top: 20px;
+    }
+    .supportbg {
+        margin-top: 20px;
+    }
+    .blockchain_contant p {
+        text-align: center;
+        padding: 0 20px;
+    }
+    .blockchain_contant a {
+        text-align: center;
+    }
+    .platform_div {
+        margin-top: 20px;
+    }
+}
+  

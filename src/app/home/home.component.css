@@ -124,6 +124,7 @@ section.domains_div {
     margin-top: 100px;
     padding:24px 0 24px 0;
     position: relative;
+    background-size: cover;
 }
 .impbox p{
     color: #fff;
@@ -132,7 +133,10 @@ section.domains_div {
 .margin_top16{
     margin-top: 16px;
 }
-/* try_us */
+.latest_update {
+    text-align: center;
+}
+/* try_us
 .try_us{
     text-align: center;
     background-image:url("../../assets/try.png");
@@ -163,7 +167,7 @@ section.domains_div {
 }
 .latest_update {
     text-align: center;
-}
+} */
 
 /* slider_text */
 .slider_text{
@@ -224,6 +228,7 @@ h2.s_number {
 .slideimgbox{
 position: absolute;
 z-index: -1;
+width: 100%;
 }
 .slideimgbox img{
     object-fit: cover;
@@ -241,3 +246,5 @@ z-index: -1;
 .slide_text{
     min-height: 160px;
 }
+
+

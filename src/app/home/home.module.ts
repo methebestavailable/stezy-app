@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule,  } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -8,6 +8,7 @@ import { BannerComponent } from './banner/banner.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NewletterComponent } from '../newletter/newletter.component';
+import { TryusComponent } from '../tryus/tryus.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { NewletterComponent } from '../newletter/newletter.component';
     FooterComponent, 
     BannerComponent,
     NewletterComponent,
+    TryusComponent,
   ],
   imports: [
     CommonModule,
@@ -28,8 +30,9 @@ import { NewletterComponent } from '../newletter/newletter.component';
     HeaderComponent, 
     FooterComponent,
     BannerComponent,
-    NewletterComponent
+    NewletterComponent,
+    TryusComponent,
   ],
-
+  schemas: [   ],
 })
 export class HomeModule { }

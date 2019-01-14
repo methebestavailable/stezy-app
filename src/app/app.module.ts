@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule,CUSTOM_ELEMENTS_SCHEMA  } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -12,10 +12,14 @@ import { AboutComponent } from './about/about.component';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ProductComponent } from './product/product.component';
+// import { TryusComponent } from './tryus/tryus.component';
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
+    ProductComponent,
+    // TryusComponent,
     
   ],
   imports: [
@@ -29,7 +33,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   providers: [
     {provide: LocationStrategy, useClass: HashLocationStrategy},
   ],
-  schemas: [ NO_ERRORS_SCHEMA ],
+  schemas: [ NO_ERRORS_SCHEMA,CUSTOM_ELEMENTS_SCHEMA  ],
 
   bootstrap: [AppComponent]
 })
