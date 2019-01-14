@@ -1,5 +1,6 @@
 .pricing_box{
     background: url('../../assets/pricing_banner.jpg') no-repeat ;
+    background-size: cover;
 }
 .price_heading{
     padding: 40px 0;
