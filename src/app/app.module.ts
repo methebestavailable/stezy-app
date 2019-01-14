@@ -12,10 +12,12 @@ import { AboutComponent } from './about/about.component';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { PricingComponent } from './pricing/pricing.component';
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
+    PricingComponent,
     
   ],
   imports: [
