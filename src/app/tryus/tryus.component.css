@@ -1,0 +1,31 @@
+.try_us{
+    text-align: center;
+    background-image:url("../../assets/try.png");
+    margin-bottom: 50px;
+}
+.try_us h3 {
+    color: #fff;
+    padding: 40px 0 0 0;
+}
+.try_us h6{
+    color: #fff;
+    font-size: 18px;
+}
+.try_us p{
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 0;
+}
+.sign_btn{
+    color: #4385f5;
+    background: #fff;
+    border: none;
+    padding: 16px 30px;
+    border-radius: 50px;
+    margin: 0px 0 44px 0;
+    font-size: 11px;
+    font-weight: 800;
+}
+.latest_update {
+    text-align: center;
+}

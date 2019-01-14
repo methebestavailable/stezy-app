@@ -25,9 +25,14 @@
   margin-top: 50px;
   font-size: 18px;
 }
-.position_abso{
+.position_abso {
+  background: url("../../../assets/Characters.png") no-repeat center center ;
+  height: 516px;
+  background-repeat: no-repeat;
   position: absolute;
-  right: 50px;
+  right: 20px;
+  top:30px;
+  max-width:784px;
 }
 .sign_bt{
   margin-top: 50px  
