@@ -1,0 +1,37 @@
+.learn_banner{
+    background:url("../../assets/learn_bg.jpg") no-repeat;
+    background-size: cover;
+}
+.learn_banner h2 {
+    color: #4385f5;
+    margin: 90px 0 0 0;
+    font-size: 24px;
+    font-weight: 800;
+}
+.learn_banner h3 {
+    color: #4385f5;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 100px 0;
+}
+.search-container {
+    margin: 0 auto;
+    position: relative;
+    top: 12px;
+}
+input[type="text"] {
+    width: 400px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 0 16px 0 #ccc;
+}
+button.search_icon {
+    position: relative;
+    right: 40px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #2d2d33;
+    font-weight: normal;
+}
