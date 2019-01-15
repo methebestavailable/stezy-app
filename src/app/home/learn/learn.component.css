@@ -4,7 +4,7 @@
 }
 .learn_banner h2 {
     color: #4385f5;
-    margin: 90px 0 0 0;
+    margin: 150px 0 0 0;
     font-size: 24px;
     font-weight: 800;
 }
@@ -12,12 +12,12 @@
     color: #4385f5;
     font-size: 22px;
     font-weight: 600;
-    margin: 0 0 100px 0;
+    margin: 0 0 170px 0;
 }
 .search-container {
     margin: 0 auto;
     position: relative;
-    top: 12px;
+    top: 20px;
 }
 input[type="text"] {
     width: 400px;
@@ -25,6 +25,9 @@ input[type="text"] {
     border-radius: 50px;
     border: none;
     box-shadow: 0 0 16px 0 #ccc;
+}
+input[type="text"]:focus {
+    outline: none;
 }
 button.search_icon {
     position: relative;
@@ -35,3 +38,201 @@ button.search_icon {
     color: #2d2d33;
     font-weight: normal;
 }
+button.search_icon:focus{
+    outline: none;
+}
+/* banner_div_end */
+
+/* accordian_div */
+section.accordian_div {
+    margin: 80px 0;
+}
+.tabs-left > .nav-tabs {
+    border-bottom: 0;
+  }
+  
+  .tab-content > .tab-pane,
+  .pill-content > .pill-pane {
+    display: none;
+  }
+  
+  .tab-content > .active,
+  .pill-content > .active {
+    display: block;
+  }
+  
+  .tabs-left > .nav-tabs > li {
+    float: none;
+  }
+  
+  .tabs-left > .nav-tabs > li > a {
+    min-width: 74px;
+    margin-right: 0;
+    margin-bottom: 3px;
+  }
+  
+  .tabs-left > .nav-tabs {
+    float: left;
+    margin-right: 19px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .tabs-left > .nav-tabs > li > a {
+    margin-right: -1px;
+    -webkit-border-radius: 4px 0 0 4px;
+       -moz-border-radius: 4px 0 0 4px;
+            border-radius: 4px 0 0 4px;
+  }
+  
+  .tabs-left > .nav-tabs > li > a:hover,
+  .tabs-left > .nav-tabs > li > a:focus {
+    border-color: #eeeeee #dddddd #eeeeee #eeeeee;
+  }
+  
+  .tabs-left > .nav-tabs .active > a,
+  .tabs-left > .nav-tabs .active > a:hover,
+  .tabs-left > .nav-tabs .active > a:focus {
+    border-color: #ddd transparent #ddd #ddd;
+    *border-right-color: #ffffff;
+  }
+
+  .nav .nav-tabs ul li a:before {
+    transform: rotate(45deg);
+    background: #1d2e3b;
+}
+.nav .nav-tabs ul li a:before, .nav .nav-tabs ul li a:after {
+    content: "";
+    width: 3px;
+    height: 10px;
+    background: #d21d54;
+    font-size: 15px;
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    transform: rotate(-45deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+.nav .nav-tabs ul li a:after {
+    transform: rotate(-45deg);
+    background: #1d2e3b;
+    right: 29px;
+    transform: rotate(45deg);
+}
+
+  .nav>li>a {
+    padding: 0 26px;
+}
+.nav-tabs {
+    background: #f3f6fd;
+    border:none;
+    padding: 12px 20px 90px 0;
+}
+li.active a {
+    color: #4385f5;
+    background: #f3f6fd;
+    border:none;
+}
+.nav>li>a>img {
+    margin: 0 6px;
+}
+/* tab_contant */
+.tab_contant{
+    text-align: center;
+}
+.tab_contant{
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 200px;
+    height: 165px;
+    margin: 0 30px 30px 38px;
+}
+.nav-tabs li ul{
+    height: 0px;
+    overflow: hidden;
+    transition: all 1s ease;
+}
+.nav-tabs li.active ul{
+    height: inherit;
+    overflow: hidden;
+    transition: 'height' 2s ease;
+}
+.tab_contant h4 {
+    margin: 14px 0 36px 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+.tab_contant img {
+    margin-top: 20px;
+}
+.feartud_heading {
+    text-align: center;
+}
+.feartud_list{
+    list-style-type: none;
+    margin-top: 35px;
+}
+.feartud_list li{
+    margin: 16px 0;
+}
+.feartud_list img{
+    margin: 0 10px;
+}
+ul.nav.nav-tabs li {
+    padding: 13px 0;
+}
+/* end-tab_contant */
+
+
+#accordion .title a:before,
+#accordion .title a:after{
+    content: "";
+    width: 3px;
+    height: 10px;
+    background: #2b2b32;
+    font-size: 15px;
+    position: absolute;
+    top: 68px;
+    right: 35px;
+    transform: rotate(-45deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+#accordion .title a:after{
+    right: 29px;
+    transform: rotate(45deg);
+}
+.nav-tabs li:before{
+    transform: rotate(45deg);
+    background: #1d2e3b;
+}
+.nav-tabs li.active:after{
+    transform: rotate(-45deg);
+    background: #1d2e3b;
+}
+.getting_div h3{
+    color: #4385f5;
+    font-size: 20px;
+    font-weight: bold;
+}
+.getting_div h5{
+    font-size: 18px;
+    color: #4385f5;
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+.border_bottom{
+    border-bottom: 1px solid #f3f6fd;
+}
+ul.stezy_list {
+    list-style: none;
+}
+ul.stezy_list li{
+    padding: 6px 0 !important;
+    margin: 0 0 0 16px;
+    font-size: 13px;
+}
+
+
+
+
+
