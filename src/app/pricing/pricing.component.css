@@ -16,7 +16,7 @@
     border-radius: 5px;
     padding: 25px 0px;
     margin-top: 35px;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
     height: 706px;
    
 }
@@ -49,8 +49,18 @@
   font-size: 12px;
 }
 .table_box ul .bor_bot_none {
-    border-bottom: none !important;
+  border-bottom: none !important;
 }
 .font_14px{
-    font-size: 14px;
+  font-size: 14px;
+}
+.comparison h2{
+  width: 100%;
+}
+.comparison_box{
+  border: 1px solid #ccc;
+  border-radius: 5px 5px 0 0 ;
+}
+.comparison_box h3{
+  padding: 12px 0 8px 0;  
 }
