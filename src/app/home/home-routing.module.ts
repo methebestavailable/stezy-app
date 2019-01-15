@@ -2,12 +2,12 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home.component';
 import { RouterModule, Routes } from "@angular/router";
-import { AboutComponent } from "../about/about.component";
-import { PricingComponent } from '../pricing/pricing.component';
+import { AboutComponent } from "./about/about.component";
+import { PricingComponent } from './pricing/pricing.component';
 
 
-import { ProductComponent } from '../product/product.component';
-import { LearnComponent } from '../learn/learn.component';
+import { ProductComponent } from './product/product.component';
+import { LearnComponent } from './learn/learn.component';
 
 const routes: Routes = [
   // {

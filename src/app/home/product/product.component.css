@@ -1,6 +1,6 @@
 /* end banner */
 .product_bg{
- background :url("../../assets/product_bg.jpg");  
+ background :url("../../../assets/product_bg.jpg");  
  position: relative; 
  background-size: cover;
 }
@@ -124,7 +124,7 @@ h4.result {
 }
 /* support_bg */
 .supportbg{
-    background:url("../../assets/supportbg.jpg");
+    background:url("../../../assets/supportbg.jpg");
     text-align:center;
     background-repeat: no-repeat;
     margin-top: 60px;

@@ -98,26 +98,58 @@
             <p>Healthcare, Financial services, Government, Legal, Insurance, Agriculture, Energy,</p>
             <p>Retail & logistics and Many more.</p>
         </div>
-    <owl-carousel-o [options]="customOptionsTwo" (initialized)="getDataA($event)">
-      <ng-container *ngFor="let slide of slidesStoreA">
-        <ng-template carouselSlide="1">
-          <div class="slider_text">
-           <div class="slideimgbox"><img [src]="slide.backgroundimg" [alt]="slide.backgroundimg"></div> 
-            <div class="slidecontent">
-            <h2 class="s_number">{{slide.number}}</h2>
-            <h3 class="trade_heading">{{slide.heading}}</h3>
-            <ul class="trade_list">
-              <li> <img [src]="slide.arrow" class="arrow_bg" alt=""> {{slide.listi}}</li>
-              <li> <img [src]="slide.arrow" class="arrow_bg" alt=""> {{slide.listii}}</li>
-              <li> <img [src]="slide.arrow" class="arrow_bg" alt="">{{slide.listiii}}</li>
-            </ul>
-            <a href="#">{{slide.learmore}}</a>
-            </div>
-          </div>  
-        </ng-template>
-      </ng-container>
-    
-    </owl-carousel-o>
+        <owl-carousel-o   *ngIf="data ;else show" [options]="customOptionsTwo" (initialized)="getDataA($event)" id="cro">
+            <ng-container *ngFor="let slide of slidesStoreA">
+              <ng-template carouselSlide="1">
+                <div class="slider_text">
+                 <div class="slideimgbox"><img [src]="slide.backgroundimg" [alt]="slide.backgroundimg"></div> 
+                  <div class="slidecontent">
+                  <h2 class="s_number">{{slide.number}}</h2>
+                  <h3 class="trade_heading">{{slide.heading}}</h3>
+                  <ul class="trade_list">
+                    <li> <img [src]="slide.arrow" class="arrow_bg" alt=""> {{slide.listi}}</li>
+                    <li> <img [src]="slide.arrow" class="arrow_bg" alt=""> {{slide.listii}}</li>
+                    <li> <img [src]="slide.arrow" class="arrow_bg" alt="">{{slide.listiii}}</li>
+                  </ul>
+                  <a (click)="FixDisplaySlider()">{{slide.learmore}}</a>
+                  </div>
+                </div>  
+              </ng-template>
+            </ng-container>
+          
+          </owl-carousel-o>
+          <ng-template #show>
+              <owl-carousel-o    [options]="customOptionsTwoData" (initialized)="getDataA($event)" id="cro">
+                  <ng-container *ngFor="let slide of slidesStoreA">
+                    <ng-template carouselSlide="1">
+                      <div class="slider_text">
+                       <div class="slideimgbox"><img [src]="slide.backgroundimg" [alt]="slide.backgroundimg"></div> 
+                        <div class="slidecontent">
+                        <h2 class="s_number">{{slide.number}}</h2>
+                        <h3 class="trade_heading">{{slide.heading}}</h3>
+                        <ul class="trade_list">
+                          <li> <img [src]="slide.arrow" class="arrow_bg" alt=""> {{slide.listi}}</li>
+                          <li> <img [src]="slide.arrow" class="arrow_bg" alt=""> {{slide.listii}}</li>
+                          <li> <img [src]="slide.arrow" class="arrow_bg" alt="">{{slide.listiii}}</li>
+                        </ul>
+                        <a (click)="FixDisplaySlider()">{{slide.learmore}}</a>
+                        </div>
+                      </div>  
+      
+                      <div class="slider_text_right">
+                            <button type="button" class="close" aria-label="Close" (click)="returnSlider()">
+                                    <span aria-hidden="true">&times;</span>
+                            </button>                          
+                            {{slide.learn_more_info}}HHHH
+       
+                      </div>
+                    </ng-template>
+      
+                  </ng-container>
+                
+                     
+                </owl-carousel-o>
+          </ng-template>
     
     </div>
 </section>  

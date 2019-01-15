@@ -1,5 +1,17 @@
 
-
+.slider_text_right{
+    width: 0px;
+    transition:width 4s;
+}
+.slider_text_right{
+    width: 50%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+    background: #f3f6fd;
+    padding: 50px 100px 30px 30px;
+}
 /* business-section */
 .business_div{
     border: 1px solid #ccc;

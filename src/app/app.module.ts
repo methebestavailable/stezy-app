@@ -8,21 +8,15 @@ import { NO_ERRORS_SCHEMA } from '@angular/core';
 
 
 import { CarouselModule } from 'ngx-owl-carousel-o';
-import { AboutComponent } from './about/about.component';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { PricingComponent } from './pricing/pricing.component';
-import { ProductComponent } from './product/product.component';
-import { LearnComponent } from './learn/learn.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    AboutComponent,
-    PricingComponent,
-    ProductComponent,
-    LearnComponent,
+    
     
   ],
   imports: [

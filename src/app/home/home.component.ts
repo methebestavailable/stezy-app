@@ -7,7 +7,7 @@ import { SlidesOutputData } from 'ngx-owl-carousel-o';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
+  data:boolean = true;
 customOptions: any = {
   margin: 30,
   loop: true,
@@ -34,6 +34,20 @@ customOptionsTwo: any = {
   navText: ['', ''],
   nav: true,
   responsive: {0: {items: 1},400: { items: 3},740: {items: 3},940: {items: 3}},
+  
+  //autoplaySpeed:1
+}
+customOptionsTwoData: any = {
+  loop: false,
+  mouseDrag: true,
+  touchDrag: true,
+  pullDrag: true,
+  dots: false,
+  autoplay: false,
+  navSpeed: 700,
+  navText: ['', ''],
+  nav: true,
+  responsive: {0: {items: 1},400: { items: 3},740: {items: 1},940: {items: 1}},
   
   //autoplaySpeed:1
 }
@@ -67,7 +81,9 @@ constructor() {
       listi: "Use Blockchain ledger us a single source of truth and allowing access to all authorized parties",
       listii: "Focus on utilizing smart contracts to manage letters of Credit (LoC) or BoL status",
       listiii: "Early actions based on smart contract status notification",
-      learmore: "Learn More"
+      learmore: "Learn More",
+      learn_more_info: "AAAAAAAAAAAAAAAAAAAA of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+
     },
     { 
       backgroundimg: "../../../assets/valuebg2.jpg",
@@ -75,44 +91,49 @@ constructor() {
       heading: "Supply Chain",
       listi: "Create a shared ledger as the single source of truth",
       listii: "Upload data into the shared ledger  via human or self-managed inputs",
-      listiii: "Each participant has their own version of the ledger and there is a weak integration between them",
-      learmore: "Learn More"
+      listiii: "Upload data into the shared ledger  via human or self-managed inputs",
+      learmore: "Learn More",
+      learn_more_info: "BBBBBBBBBBBBBBBBBBBBBBBBBBBb xt of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
     {
       backgroundimg: "../../../assets/valuebg3.jpg",
       number: "03",
-      heading: "Know your customer", 
-      listi: "Improve onboarding experience for new customers",
-      listii: "Centralizing the KYC process increase efficiency and cost-effectiveness",
-      listiii: "Increased customer control over how their data is accessed and shared",
-      learmore: "Learn More"
+      heading: "Trade Finance", 
+      listi: "Use Blockchain ledger us a single source of truth and allowing access to all authorized parties",
+      listii: "Focus on utilizing smart contracts to manage letters of Credit (LoC) or BoL status",
+      listiii: "Early actions based on smart contract status notification",
+      learmore: "Learn More",
+      learn_more_info: "CCCCCCCCCCCCCCCCCCCCCCCCCC of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
     { 
       backgroundimg: "../../../assets/valuebg1.jpg",
       number: "04",
-      heading: "Digital Asset Transfer",
-      listi: "Intermediary will initially support the process playing the role of the ledger",
-      listii: "Subsequent steps will limit the role of the intermediary and replace with automated smart contract features",
-      listiii: "Removal of costly intermediaries",
-      learmore: "Learn More"
+      heading: "Supply Chain",
+      listi: "Create a shared ledger as the single source of truth",
+      listii: "Upload data into the shared ledger  via human or self-managed inputs",
+      listiii: "Upload data into the shared ledger  via human or self-managed inputs",
+      learmore: "Learn More",
+      learn_more_info: "DDDDDDDDDDDDDDDDDDDDDDDDDDD of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
     {
       backgroundimg: "../../../assets/valuebg2.jpg",
       number: "05",
-      heading: "HealthCare", 
-      listi: "Personal health information management",
-      listii: "Secure patient data sharing",
-      listiii: "Insurance claim adjudication",
-      learmore: "Learn More"
+      heading: "Trade Finance", 
+      listi: "Use Blockchain ledger us a single source of truth and allowing access to all authorized parties",
+      listii: "Focus on utilizing smart contracts to manage letters of Credit (LoC) or BoL status",
+      listiii: "Early actions based on smart contract status notification",
+      learmore: "Learn More",
+      learn_more_info: "EEEEEEEEEEEEEEEEEEEEEEEE of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
     { 
       backgroundimg: "../../../assets/valuebg3.jpg",
       number: "06",
-      heading: "Insurance",
-      listi: "Revolutionize the trust that powers Insurance",
-      listii: "Fully automate Underwriting",
-      listiii: "Accelarate the claims settlement",
-      learmore: "Learn More"
+      heading: "Supply Chain",
+      listi: "Create a shared ledger as the single source of truth",
+      listii: "Upload data into the shared ledger  via human or self-managed inputs",
+      listiii: "Upload data into the shared ledger  via human or self-managed inputs",
+      learmore: "Learn More",
+      learn_more_info: "FFFFFFFFFFFFFFFFFFF    of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
   ]
   this.slidesStoreB = [
@@ -171,4 +192,16 @@ ngOnInit(): void{
 
 }
 
+
+FixDisplaySlider(){
+  this.data =  false
+  // this.customOptionsTwo['responsive'][940]["items"] = 1;
+  
+
+}
+returnSlider(){
+  this.data =  true
+  // this.customOptionsTwo['responsive'][940]["items"] = 3; 
+  // window.scrollTo(this.cro.nativeElement.id,1000);
+}
 }
