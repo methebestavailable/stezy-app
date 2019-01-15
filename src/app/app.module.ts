@@ -14,6 +14,7 @@ import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { PricingComponent } from './pricing/pricing.component';
 import { ProductComponent } from './product/product.component';
+import { LearnComponent } from './learn/learn.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { ProductComponent } from './product/product.component';
     AboutComponent,
     PricingComponent,
     ProductComponent,
+    LearnComponent,
     
   ],
   imports: [
