@@ -7,7 +7,8 @@ import { SlidesOutputData } from 'ngx-owl-carousel-o';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  data:boolean = true;
+data:boolean = true;
+array:any[]
 customOptions: any = {
   margin: 30,
   loop: true,
@@ -46,7 +47,7 @@ customOptionsTwoData: any = {
   autoplay: false,
   navSpeed: 700,
   navText: ['', ''],
-  nav: true,
+  nav: false,
   responsive: {0: {items: 1},400: { items: 3},740: {items: 1},940: {items: 1}},
   
   //autoplaySpeed:1
@@ -75,6 +76,7 @@ slidesStoreC: any[];
 constructor() {
   this.slidesStoreA = [
     { 
+      id:1,
       backgroundimg: "../../../assets/valuebg1.jpg",
       number: "01",
       heading: "Trade Finance", 
@@ -86,6 +88,7 @@ constructor() {
 
     },
     { 
+      id:2,
       backgroundimg: "../../../assets/valuebg2.jpg",
       number: "02",
       heading: "Supply Chain",
@@ -96,6 +99,7 @@ constructor() {
       learn_more_info: "BBBBBBBBBBBBBBBBBBBBBBBBBBBb xt of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
     {
+      id:3,
       backgroundimg: "../../../assets/valuebg3.jpg",
       number: "03",
       heading: "Trade Finance", 
@@ -106,6 +110,7 @@ constructor() {
       learn_more_info: "CCCCCCCCCCCCCCCCCCCCCCCCCC of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
     { 
+      id:4,
       backgroundimg: "../../../assets/valuebg1.jpg",
       number: "04",
       heading: "Supply Chain",
@@ -116,6 +121,7 @@ constructor() {
       learn_more_info: "DDDDDDDDDDDDDDDDDDDDDDDDDDD of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
     {
+      id:5,
       backgroundimg: "../../../assets/valuebg2.jpg",
       number: "05",
       heading: "Trade Finance", 
@@ -173,6 +179,7 @@ constructor() {
 
     },
   ]
+  this.array = this.slidesStoreA
 
 }
 
@@ -193,14 +200,15 @@ ngOnInit(): void{
 }
 
 
-FixDisplaySlider(){
+FixDisplaySlider(slide){
   this.data =  false
   // this.customOptionsTwo['responsive'][940]["items"] = 1;
-  
+  this.slidesStoreA[0] = slide
 
 }
 returnSlider(){
   this.data =  true
+  this.slidesStoreA = this.array
   // this.customOptionsTwo['responsive'][940]["items"] = 3; 
   // window.scrollTo(this.cro.nativeElement.id,1000);
 }
