@@ -111,7 +111,7 @@
                     <li> <img [src]="slide.arrow" class="arrow_bg" alt=""> {{slide.listii}}</li>
                     <li> <img [src]="slide.arrow" class="arrow_bg" alt="">{{slide.listiii}}</li>
                   </ul>
-                  <a (click)="FixDisplaySlider(slide)">{{slide.learmore}}</a>
+                  <a (click)="FixDisplaySlider(slide.id)">{{slide.learmore}}</a>
                   </div>
                 </div>  
               </ng-template>
@@ -121,7 +121,7 @@
           <ng-template #show>
               <owl-carousel-o    [options]="customOptionsTwoData" (initialized)="getDataA($event)" id="cro">
                   <ng-container *ngFor="let slide of slidesStoreA">
-                    <ng-template carouselSlide="1">
+                    <ng-template carouselSlide="1" *ngIf="key_popup == slide.id">
                       <div class="slider_text">
                        <div class="slideimgbox"><img [src]="slide.backgroundimg" [alt]="slide.backgroundimg"></div> 
                         <div class="slidecontent">
@@ -132,16 +132,28 @@
                           <li> <img [src]="slide.arrow" class="arrow_bg" alt=""> {{slide.listii}}</li>
                           <li> <img [src]="slide.arrow" class="arrow_bg" alt="">{{slide.listiii}}</li>
                         </ul>
-                        <a (click)="FixDisplaySlider()">{{slide.learmore}}</a>
+                        <!-- <a (click)="FixDisplaySlider()">{{slide.learmore}}</a> -->
                         </div>
                       </div>  
       
                       <div class="slider_text_right">
                             <button type="button" class="close" aria-label="Close" (click)="returnSlider()">
                                     <span aria-hidden="true">&times;</span>
-                            </button>                          
-                            {{slide.learn_more_info}}HHHH
-       
+                            </button>  
+                            
+                            <h1>Current Challenges: </h1>
+                            <ul>
+                                <li *ngFor="let challenge  of slide.learn_more_challengesArray">
+{{challenge}}
+                                </li>
+                            </ul>
+                            <h1>Potential Benefits: </h1>
+                            <ul>
+                                <li *ngFor="let potential  of slide.learn_more_potentialArray">
+{{potential}}
+                                </li>
+                                
+                            </ul>
                       </div>
                     </ng-template>
       
@@ -201,16 +213,6 @@
         </div>
     </div>
 </div>
-<!-- <section class="try_us">
-  <div class="container">
-    <div class="try_contant">
-      <h3>Try Us.</h3>
-      <h6>You will love Stezy experience.</h6>
-      <p>Start your 30-day free trial.No credit card required.No strings attached.</p>
-      <button class="sign_btn">SIGN UP FOR FREE</button>
-    </div>  
-  </div>  
-</section>   -->
 <app-tryus></app-tryus>
 <app-newletter></app-newletter>
 <app-footer></app-footer>

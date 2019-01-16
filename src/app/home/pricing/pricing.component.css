@@ -1,14 +1,18 @@
 .pricing_box {
-  background: url(../../../assets/pricing_banner.jpg) no-repeat center center;
+  background: url(../../../assets/pricing_banner.jpg) no-repeat ;
   background-size: cover;
-  padding: 160px 0px;
+  height: 540px;
   position: relative;
 }
-
+.container_posit{
+  position: absolute;
+  top: 42%;
+  left: 18%;
+}
 .price_heading,
 .price_head_para {
     color: #4385f5;
-    width: 34%;
+    width: 70%;
 }
 .price_content{
     padding-top: 25px;
@@ -31,7 +35,7 @@
     padding: 25px 0px;
     margin-top: 35px;
     margin-bottom: 40px;
-    height: 715px;
+    height: 655px;
    
 }
 .table_box h2{
@@ -39,6 +43,13 @@
     border-bottom: 1px solid #ccc;
     margin-bottom: 0;
     padding-bottom: 15px;
+}
+.shortTitle{
+    background-color: #f3f6fd;
+    margin: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+
 }
 .table_box ul{
     margin: 0;
@@ -57,7 +68,7 @@
 }
 .li_bold{
   font-weight: 800;
-  color: inherit !important;
+   color: #2a2a31;
 }
 .li_bg p{
   margin-bottom: 0;
@@ -120,6 +131,10 @@
   border-radius: 50%;
   display: inline-block;
 }
+.priceimg{
+      width: auto!important;
+      margin: 0px auto !important;
+}
 .yes_no .dot_green,
 .no_yes .dot_red,
 .yes_no {
@@ -138,8 +153,19 @@
   border: 1px solid #e6e6e6;
   border-top: none;
 }
+.owl-carousel .owl-item img {
+  display: block;
+  width: 40%;
+  margin: auto;
+}
 
-
+@media(max-width:2560px){
+.pricing_box {
+  background: url('../../../assets/pricing_banner.jpg') no-repeat top;
+  background-size: contain;
+  height: 880px;
+}
+}
 @media(max-width:767px){
   .comparison_box h3{
     padding: 5px 0 0 0;
@@ -167,6 +193,9 @@
     margin-left: -2PX;
 
   }
+  .heightFix{
+    height: 375px;
+  }
    .mobnopaddright {
      padding-right: 0px !important;
    }
@@ -176,12 +205,25 @@
 .tablemobile{
   padding: 0px 15px;
 }
-   .table-responsive td {
-     min-width: 170px !important;
-   }
-   .hight88px{
-     height: 88px!important;
-   }
+  .table-responsive td {
+    min-width: 170px !important;
+  }
+  .hight88px{
+    height: 88px!important;
+  }
+  .pricing_box{
+    background-size: contain;
+    height: 265px;
+  }
+  .price_head_para{
+        display: none;                                                        
+  }
+  .container_posit{
+    top: 25%;
+  }
+  .price_table {
+    margin-top: 40px;
+  }
 }
 @media(max-width:375px) {
   .scrollable {
@@ -191,6 +233,10 @@
   .table td,
   .table th {
      min-width: 100%;
+  }
+  .pricing_box{
+    background-size: contain;
+    height: 137px;
   }
 }
 
