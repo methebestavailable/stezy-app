@@ -156,7 +156,20 @@ constructor() {
       listii: "Upload data into the shared ledger  via human or self-managed inputs",
       listiii: "Upload data into the shared ledger  via human or self-managed inputs",
       learmore: "Learn More",
-      learn_more_info: "DDDDDDDDDDDDDDDDDDDDDDDDDDD of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      learn_more_info: "DDDDDDDDDDDDDDDDDDDDDDDDDDD of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      learn_more_challengesArray: [
+        "Supply chain management can be cash-flow unaware",
+        "Supply chain optimization usually ignores contract terms",
+        "Each participant has their own version of the ledger and there is a weak integration between them",
+        "In case of anomalies, accountability is needed to avoid expensive reconciliation of disputes ",
+      ],
+      learn_more_potentialArray: [
+        "Optimize inventory levels and turns",
+        "Lower transportation and warehousing costs",
+        "Increase trust and visibility across the supply chain by providing a single source of truth  ",
+        "Reduce legal expenses via self-executing Smart Contracts",
+        "Payments are automatic, condition-based and adjusted for performance",
+      ],
     },
     {
       id:5,
@@ -167,7 +180,19 @@ constructor() {
       listii: "Focus on utilizing smart contracts to manage letters of Credit (LoC) or BoL status",
       listiii: "Early actions based on smart contract status notification",
       learmore: "Learn More",
-      learn_more_info: "EEEEEEEEEEEEEEEEEEEEEEEE of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      learn_more_info: "EEEEEEEEEEEEEEEEEEEEEEEE of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      learn_more_challengesArray: [
+        "Time-intensive creation and management of financial agreements ",
+        "Manual Anti-Money Laundering (AML) compliance checks",
+        "Duplicative efforts managing Bills of Lading (BoL)  ",
+        "Multiple versions of the truth increase costs and impact efficiency ",
+        "Delayed settlement results inconsistent business cash flow ",
+      ],
+      learn_more_potentialArray: [
+        "Enhanced transparency as all parties share in a single source of truth ",
+        "Increased business agility by decrease time to payment ",
+        "Decreased need for trusted intermediaries ",
+      ],
     },
     { 
       backgroundimg: "../../../assets/valuebg3.jpg",
@@ -177,7 +202,20 @@ constructor() {
       listii: "Upload data into the shared ledger  via human or self-managed inputs",
       listiii: "Upload data into the shared ledger  via human or self-managed inputs",
       learmore: "Learn More",
-      learn_more_info: "FFFFFFFFFFFFFFFFFFF    of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      learn_more_info: "FFFFFFFFFFFFFFFFFFF    of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      learn_more_challengesArray: [
+        "Poor customer onboarding experience across companies ",
+        "Same customer, multiple identities in same corporate group ",
+        "Time consuming process to verify identity and documents authenticity  ",
+        "Difficult to ensure customer data privacy and traceability  ",
+      ],
+      learn_more_potentialArray: [
+        "Centralizing the KYC process increase efficiency and cost-effectiveness ",
+        "Improve onboarding experience across all authorized parties ",
+        "Eliminating manual compliance checks ",
+        "Secure exchange of information between different trusted entities ",
+        "Increased customer control over how their data is accessed and shared ",
+      ],
     },
   ]
   this.slidesStoreB = [

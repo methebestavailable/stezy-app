@@ -3,11 +3,10 @@
   background-size: cover;
   height: 540px;
   position: relative;
+  background-color: linear-gradient(to left, #d8a6a6 50%, #0000ff 50%);
 }
 .container_posit{
-  position: absolute;
-  top: 42%;
-  left: 18%;
+  padding-top:13%;
 }
 .price_heading,
 .price_head_para {
@@ -159,9 +158,9 @@
   margin: auto;
 }
 
-@media(max-width:2560px){
+@media(min-width:2200px){
 .pricing_box {
-  background: url('../../../assets/pricing_banner.jpg') no-repeat top;
+  background: url('../../../assets/pricing_banner.jpg') no-repeat top ;
   background-size: contain;
   height: 880px;
 }
