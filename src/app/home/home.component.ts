@@ -9,6 +9,7 @@ import { SlidesOutputData } from 'ngx-owl-carousel-o';
 export class HomeComponent implements OnInit {
 data:boolean = true;
 array:any[]
+key_popup:string
 customOptions: any = {
   margin: 30,
   loop: true,
@@ -190,7 +191,6 @@ constructor() {
     },
     {
       src: "../../../assets/aws.png"
-
     },
   ]
   
@@ -211,13 +211,8 @@ constructor() {
       name: "Jane Write",
       text: "Stezy blockchain platform helped in saving time, cost, effort with zero maintenance and a very affordable subscription. Thanks to team of going out of box to help us integrate blockchain",
       src: "../../../assets/people_img3.jpg",
-      logo: "../../../assets/hasbro.jpg"
-
-
-    },
+      logo: "../../../assets/hasbro.jpg"},
   ]
-  this.array = this.slidesStoreA
-
 }
 
 getDataA(data: SlidesOutputData) {
@@ -232,26 +227,17 @@ getDataC(data: SlidesOutputData) {
     this.activeSlidesC = data;
     console.log(this.activeSlidesC);
 }
-  getDataD(data: SlidesOutputData) {
-    this.activeSlidesD = data;
-    console.log(this.activeSlidesD);
-  }
+
 ngOnInit(): void{
 
 }
 
 
-FixDisplaySlider(slide){
+FixDisplaySlider(key){
   this.data =  false
-  // this.customOptionsTwo['responsive'][940]["items"] = 1;
-  debugger
-  this.slidesPopUp = slide
-  console.log(this.slidesPopUp)
+  this.key_popup = key;
 }
 returnSlider(){
   this.data =  true
-  // this.slidesStoreA = this.array
-  // this.customOptionsTwo['responsive'][940]["items"] = 3; 
-  // window.scrollTo(this.cro.nativeElement.id,1000);
 }
 }

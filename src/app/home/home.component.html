@@ -111,7 +111,7 @@
                     <li> <img [src]="slide.arrow" class="arrow_bg" alt=""> {{slide.listii}}</li>
                     <li> <img [src]="slide.arrow" class="arrow_bg" alt="">{{slide.listiii}}</li>
                   </ul>
-                  <a (click)="FixDisplaySlider(slide)">{{slide.learmore}}</a>
+                  <a (click)="FixDisplaySlider(slide.id)">{{slide.learmore}}</a>
                   </div>
                 </div>  
               </ng-template>
@@ -121,7 +121,7 @@
           <ng-template #show>
               <owl-carousel-o    [options]="customOptionsTwoData" (initialized)="getDataA($event)" id="cro">
                   <ng-container *ngFor="let slide of slidesStoreA">
-                    <ng-template carouselSlide="1">
+                    <ng-template carouselSlide="1" *ngIf="key_popup == slide.id">
                       <div class="slider_text">
                        <div class="slideimgbox"><img [src]="slide.backgroundimg" [alt]="slide.backgroundimg"></div> 
                         <div class="slidecontent">
