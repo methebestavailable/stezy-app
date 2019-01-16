@@ -80,8 +80,8 @@ section.accordian_div {
   .tabs-left > .nav-tabs > li > a {
     margin-right: -1px;
     -webkit-border-radius: 4px 0 0 4px;
-       -moz-border-radius: 4px 0 0 4px;
-            border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px;
   }
   
   .tabs-left > .nav-tabs > li > a:hover,
@@ -96,40 +96,23 @@ section.accordian_div {
     *border-right-color: #ffffff;
   }
 
-  .nav .nav-tabs ul li a:before {
-    transform: rotate(45deg);
-    background: #1d2e3b;
-}
-.nav .nav-tabs ul li a:before, .nav .nav-tabs ul li a:after {
-    content: "";
-    width: 3px;
-    height: 10px;
-    background: #d21d54;
-    font-size: 15px;
-    position: absolute;
-    top: 20px;
-    right: 35px;
-    transform: rotate(-45deg);
-    transition: all 0.3s ease-in-out 0s;
-}
-.nav .nav-tabs ul li a:after {
-    transform: rotate(-45deg);
-    background: #1d2e3b;
-    right: 29px;
-    transform: rotate(45deg);
-}
-
   .nav>li>a {
-    padding: 0 26px;
+    padding: 0px 30px;
+    display:block;
+    position: relative;
+    top: -4px;
 }
 .nav-tabs {
     background: #f3f6fd;
     border:none;
-    padding: 12px 20px 90px 0;
+    padding:15px 0px;
+}
+.nav-tabs li{
+    display:block;
+    width: 100%;
 }
 li.active a {
     color: #4385f5;
-    background: #f3f6fd;
     border:none;
 }
 .nav>li>a>img {
@@ -179,7 +162,8 @@ li.active a {
     margin: 0 10px;
 }
 ul.nav.nav-tabs li {
-    padding: 13px 0;
+    padding: 0 0;
+    margin: 12px 22px;
 }
 /* end-tab_contant */
 
@@ -225,14 +209,229 @@ ul.nav.nav-tabs li {
 }
 ul.stezy_list {
     list-style: none;
+    padding:0;
 }
 ul.stezy_list li{
-    padding: 6px 0 !important;
-    margin: 0 0 0 16px;
+    padding: 0 !important;
+    width: 100%;
     font-size: 13px;
 }
-
-
-
+ul.nav.nav-tabs li a {
+    color: #555;
+}
+ul.nav.nav-tabs li.active a {
+    color:#4385f5;
+}
+ul.nav.nav-tabs li.tab1{
+    background:url("../../../assets/tab1.png") no-repeat;
+}
+ul.nav.nav-tabs li.tab1.active{
+    background:url("../../../assets/tab1bg.png") no-repeat;
+}
+ul.nav.nav-tabs li.tab2{
+    background:url("../../../assets/tab2.png") no-repeat;
+}
+ul.nav.nav-tabs li.tab2.active{
+    background:url("../../../assets/tab2bg.png") no-repeat;
+}
+ul.nav.nav-tabs li.tab3{
+    background:url("../../../assets/tab3.png") no-repeat;
+}
+ul.nav.nav-tabs li.tab3.active{
+    background:url("../../../assets/tab3bg.png") no-repeat;
+}
+ul.nav.nav-tabs li.tab4{
+    background:url("../../../assets/tab4.png") no-repeat;
+}
+ul.nav.nav-tabs li.tab4.active{
+    background:url("../../../assets/tab4bg.png") no-repeat;
+}
+ul.nav.nav-tabs li.tab5{
+    background:url("../../../assets/tab5.png") no-repeat;
+}
+ul.nav.nav-tabs li.tab5.active{
+    background:url("../../../assets/tab5bg.png") no-repeat;
+}
+ul.nav.nav-tabs li.tab6{
+    background:url("../../../assets/tab6.png") no-repeat;
+}
+ul.nav.nav-tabs li.tab6.active{
+    background:url("../../../assets/tab6bg.png") no-repeat;
+}
+ul.nav.nav-tabs li.tab7{
+    background:url("../../../assets/tab7.png") no-repeat;
+}
+ul.nav.nav-tabs li.tab7.active{
+    background:url("../../../assets/tab7bg.png") no-repeat;
+}
+ul.nav.nav-tabs li.tab8{
+    background:url("../../../assets/tab8.png") no-repeat;
+    display: inline-block;
+}
+ul.nav.nav-tabs li.tab8.active{
+    background:url("../../../assets/tab8bg.png") no-repeat;
+}
+.side_menu {
+    background: #f3f6fd;
+    padding:0;
+}
+@media only screen and (max-width: 767px) {
+    .side_menu{
+        position: fixed;
+        height: 100vh;
+        top: 0px;
+        width: 100%;
+        z-index: 9999;
+        left:-100%;
+        transition: all 1s ease;
+    }
+    .showin{
+        left:0!important;
+        transition: all 1s ease!important;
+    }
+    .home_head{
+    margin: 0px;
+    }
+    .navbtntik{
+        position: absolute;
+        z-index: 999;
+        background: #ffffff;
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        border: 0px solid #e5e5e5;
+        right: 20px;
+        top: -84px;
+        box-shadow: 0 0 16px 0 #ccc;
+    }
+    .navbtntik span{
+        width: 5px;
+        height: 5px;
+        background: #4385f5;
+        display: block;
+        margin: 5px auto;
+    }
+    .navbtnclose{
+        position: absolute;
+        z-index: 999;
+        background: #ffffff;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        border: 0px solid #e5e5e5;
+        right: 25px;
+        top: 10px;
+        box-shadow: 0 0 16px 0 #ccc;
+        color: #333;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 10px;
+        padding: 0px;
+        -webkit-appearance: none;
+    }
+}
+@media only screen and (max-width: 812px){
+    .learn_banner {
+        background-size: 100%;
+    }
+    .learn_banner h2{
+        margin: 90px 0 0 0;
+    }
+    .learn_banner h3 {
+        margin: 0 0 89px 0;
+    }
+    .nav-tabs[_ngcontent-c1] {
+         padding: 0; 
+    }
+    .feartud_list {
+        margin: 35px 0 0 0;
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .getting_div {
+        margin:20px 0 0 60px;
+    }
+    .learn_banner{
+        background-size: 100%;
+    }
+    .learn_banner h2{
+        margin: 90px 0 0 0;
+    }
+    .learn_banner h3 {
+        margin: 0 0 90px 0;
+    }
+    .search-container {
+        top: 15px;
+    }
+    section.accordian_div {
+        margin: 40px 0;
+    }
+    .tab_contant {
+        max-width: 170px;
+        height: 170px;
+        margin: 0 -62px 30px 90px;
+    }
+    .feartud_list{
+        margin-left: 50px;
+    }
+    .nav-tabs{
+        padding: 0;
+    }
+    .tab_contant {
+        margin: 0 -40px 14px 58px;
+    }
+    .getting_box{
+        width:100%;
+    }
+    .learn_banner h3{
+        margin: 0 0 22px 0;
+    }
+  }
+@media only screen and (max-width: 667px){
+    .search-container {
+        top: 20px;
+    }
+}
+@media only screen and (max-width: 414px){
+    input[type="text"] {
+        width: 280px;
+    }
+    .learn_banner h2 {
+        margin: 20px 0 0 0;
+    }
+    .tab_contant {
+        margin: 26px -25px -9px 42px;
+    }
+    .feartud_heading h3 {
+        margin-top: 36px;
+    }
+    .home_head{
+        width:100%;
+    }
+    .padding_right{
+        padding-right:0;
+    }
+}
+@media only screen and (max-width: 375px){
+    .learn_banner h2 {
+        margin: 30px 0 0 0;
+    }
+    input[type="text"] {
+        width: 280px;
+    }
+    .search-container {
+        top: 0;
+    }
+    .tab_contant{
+        margin: 25px -16px 0px 26px;
+    }
+    .feartud_heading h3 {
+        margin-top: 36px;
+    }
+    .feartud_list {
+        margin-left: 40px;
+    }
+}
 
 

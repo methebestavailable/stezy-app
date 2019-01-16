@@ -19,6 +19,25 @@ export class LearnComponent implements OnInit {
           $('.nav-tabs li').removeClass('active');
           $(this).addClass('active')
       });
+
+
+
+      $('.navbtntik').on('click', function(e){
+        e.preventDefault();
+        $('.side_menu').addClass('showin');
+    });
+    $('.navbtnclose').on('click', function(e){
+      e.preventDefault();
+      $('.side_menu').removeClass('showin');
+  });
+
+  $('.side_menu li').on('click', function(e){
+    e.preventDefault();
+    $('.side_menu').removeClass('showin');
+});
+
+    
+
     });
   }
 }
