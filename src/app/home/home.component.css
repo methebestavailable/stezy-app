@@ -163,44 +163,9 @@ section.domains_div {
     text-align: center;
     overflow: hidden;
 }
-/* try_us
-.try_us{
-    text-align: center;
-    background-image:url("../../assets/try.png");
-    margin-bottom: 50px;
-}
-.try_us h3 {
-    color: #fff;
-    padding: 40px 0 0 0;
-}
-.try_us h6{
-    color: #fff;
-    font-size: 18px;
-}
-.try_us p{
-    color: #fff;
-    font-size: 18px;
-    padding: 8px 0;
-}
-.sign_btn{
-    color: #4385f5;
-    background: #fff;
-    border: none;
-    padding: 16px 30px;
-    border-radius: 50px;
-    margin: 0px 0 44px 0;
-    font-size: 11px;
-    font-weight: 800;
-}
-.latest_update {
-    text-align: center;
-} */
-
-/* slider_text */
 .slider_text{
-    /* background:url("../../assets/valuebg1.jpg") no-repeat bottom right; */
-
     position: relative;
+        height: 570px;
 }
 .s_number{
     color: #fff !important;
@@ -279,14 +244,19 @@ width: 100%;
 }
 .slider_text_right li {
   list-style-type: none ;
+  margin-bottom: 10px;
 }
 .slider_text_right img{
         width: 6px!important;
         float: left;
         position: relative;
         top: 7px;
-        right: 6px;
+        left: 4px;
 }
+.slider_text_right span {
+       margin-left: 16px;
+       display: block;
+}   
 .slider_text_right h4{
     margin-top: 30px;
 }
