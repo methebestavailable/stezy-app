@@ -145,3 +145,44 @@ button.btn.btn-default.submit_btn {
   box-shadow: 0 4px 0 0 #ccc;
 }
 
+  @media only screen and (max-width: 1100px) {
+    .position_abso {
+       background-position: center right !important;
+       top: -20px;
+       background-size: 60% !important;
+    }
+   
+  }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+      .position_abso {
+       background-position: 30px right !important;
+       max-width: 660px;
+       top: 30px;
+       height: 330px!important;
+      }
+
+       .banner {
+         padding-top: 40px;
+         height: 390px;
+       }
+.implement{
+  margin-top: 40px!important;
+}
+       .block_para:after {
+         top: 61px;
+       }
+       .empower_para{
+         width: 90%;
+         margin-top: 25px;
+         font-size: 16px;
+       }
+       .sign_bt{
+         margin-top: 25px;
+       }
+       .sign_bt button {
+         padding: 8px 10px 10px 10px;
+         margin-right: 10px;
+         font-size: 14px;
+       }
+    }

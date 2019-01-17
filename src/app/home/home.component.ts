@@ -35,7 +35,7 @@ customOptionsTwo: any = {
   navSpeed: 700,
   navText: ['', ''],
   nav: true,
-  responsive: {0: {items: 1},400: { items: 3},740: {items: 3},940: {items: 3}},
+  responsive: {0: {items: 1},400: { items: 3},740: {items: 2},940: {items: 2}},
   
   //autoplaySpeed:1
 }

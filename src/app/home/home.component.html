@@ -119,6 +119,7 @@
           
           </owl-carousel-o>
           <ng-template #show>
+              <div class="slidernextshow">
               <owl-carousel-o    [options]="customOptionsTwoData" (initialized)="getDataA($event)" id="cro">
                   <ng-container *ngFor="let slide of slidesStoreA">
                     <ng-template carouselSlide="1" *ngIf="key_popup == slide.id">
@@ -161,6 +162,7 @@
                 
                      
                 </owl-carousel-o>
+            </div>
           </ng-template>
     
     </div>

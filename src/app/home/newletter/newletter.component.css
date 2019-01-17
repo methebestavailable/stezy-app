@@ -68,14 +68,9 @@ section.newletter {
   @media only screen and (max-width: 767px) {
     .form-group{
         width: 100%;
+        margin-bottom: 0px!important;
+    }
+    section.newletter {
+      padding: 40px 0 20px 0;
     }
   }
-@media only screen and (max-width: 375px) {
-    
-section.newletter[_ngcontent-c3] {
-    padding: 60px 0 0 0;
-} 
-.form-group{
-    width: 100%;
-}
-}
