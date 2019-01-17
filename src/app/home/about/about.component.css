@@ -193,8 +193,6 @@ ul.career_list li {
     .form_div{
         width: 80%;
     }
-}
-@media only screen and (max-width: 960px) {
     p.stezy_div {
         margin: 70px 0 0 0;
     }
