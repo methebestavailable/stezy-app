@@ -128,7 +128,7 @@ li.active a {
     border-radius: 10px;
     max-width: 200px;
     height: 165px;
-    margin: 0 30px 30px 38px;
+    margin: 0 30px 30px 10px;
 }
 .nav-tabs li ul{
     height: 0px;
@@ -275,8 +275,7 @@ ul.nav.nav-tabs li.tab8.active{
     background: #f3f6fd;
     padding:0;
 }
-@media only screen and (max-width: 767px) {
-    .side_menu{
+/* ..side_menu{
         position: fixed;
         height: 100vh;
         top: 0px;
@@ -284,7 +283,7 @@ ul.nav.nav-tabs li.tab8.active{
         z-index: 9999;
         left:-100%;
         transition: all 1s ease;
-    }
+    } */
     .showin{
         left:0!important;
         transition: all 1s ease!important;
@@ -328,6 +327,19 @@ ul.nav.nav-tabs li.tab8.active{
         line-height: 10px;
         padding: 0px;
         -webkit-appearance: none;
+    }
+    .rowset{
+        margin-left:0px;
+        margin-right:0px
+    }
+@media only screen and (max-width: 1024px) and (max-width:1050px){
+    .tab_contant {
+        text-align: center;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        max-width: 200px;
+        height: 165px;
+        margin: 0 8px 30px 10px;
     }
 }
 @media only screen and (max-width: 812px){
@@ -387,6 +399,59 @@ ul.nav.nav-tabs li.tab8.active{
     .learn_banner h3{
         margin: 0 0 22px 0;
     }
+    .side_menu{
+        position: fixed;
+        height: 100vh;
+        top: 0px;
+        width: 100%;
+        z-index: 9999;
+        left:-100%;
+        transition: all 1s ease;
+    }
+    .showin{
+        left:0!important;
+        transition: all 1s ease!important;
+    }
+    .home_head{
+    margin: 0px;
+    }
+    .navbtntik{
+        position: absolute;
+        z-index: 999;
+        background: #ffffff;
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        border: 0px solid #e5e5e5;
+        right: 20px;
+        top: -84px;
+        box-shadow: 0 0 16px 0 #ccc;
+    }
+    .navbtntik span{
+        width: 5px;
+        height: 5px;
+        background: #4385f5;
+        display: block;
+        margin: 5px auto;
+    }
+    .navbtnclose{
+        position: absolute;
+        z-index: 999;
+        background: #ffffff;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        border: 0px solid #e5e5e5;
+        right: 25px;
+        top: 10px;
+        box-shadow: 0 0 16px 0 #ccc;
+        color: #333;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 10px;
+        padding: 0px;
+        -webkit-appearance: none;
+    }
   }
 @media only screen and (max-width: 667px){
     .search-container {
@@ -412,6 +477,16 @@ ul.nav.nav-tabs li.tab8.active{
     .padding_right{
         padding-right:0;
     }
+    .tab_contant{
+        margin: 14px 12px 0px 0;
+        height: 160px;
+    }
+    .tab_contant img {
+        margin-top: 12px;
+    }
+    .tab_contant h4{
+        font-size: 14px;
+    }
 }
 @media only screen and (max-width: 375px){
     .learn_banner h2 {
@@ -424,13 +499,21 @@ ul.nav.nav-tabs li.tab8.active{
         top: 0;
     }
     .tab_contant{
-        margin: 25px -16px 0px 26px;
+        margin: 14px 12px 0px 0;
+        max-width: 150px;
+        height: 160px;
+    }
+    .tab_contant img {
+        margin-top: 12px;
+    }
+    .tab_contant h4{
+        font-size: 14px;
     }
     .feartud_heading h3 {
         margin-top: 36px;
     }
     .feartud_list {
-        margin-left: 40px;
+        margin-left: 0;
     }
 }
 
