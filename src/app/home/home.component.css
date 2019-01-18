@@ -162,7 +162,7 @@ section.domains_div {
   margin-bottom: 20px;
 }
 
-.rowdash {
+.rowdash{
   max-width: 680px;
   left: 0px;
   right: 0px;
@@ -176,9 +176,10 @@ section.domains_div {
   background: url("../../assets/try.png") no-repeat;
   margin-top: 100px;
   padding: 24px 0 24px 0;
-  position: relative;
+  /* position: relative; */
   background-size: cover;
 }
+
 
 .impbox p {
   color: #fff;

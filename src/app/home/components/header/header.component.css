@@ -1,5 +1,6 @@
 .height100{
-    height: 100px;
+    min-height: 100px;
+    padding: 0 15px;
 }
 .navbar-brand p{
     font-size: 12px     
@@ -77,12 +78,13 @@
     .login_user {
          margin-left:0;
          text-align: center;
+         width: 100%;
     }
     .login_user ul li{
         margin: 10px;
     }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 414px) {
     .navbar-nav{
         margin-left: 0;
         text-align: center;
@@ -97,8 +99,8 @@
     .login_user ul li{
         margin: 10px;
     }
-.login_user {
-  width: 100%;
+   .login_user {
+       width: 100%;
 }
 
 

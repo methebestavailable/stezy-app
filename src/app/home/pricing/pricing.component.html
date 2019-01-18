@@ -15,7 +15,7 @@
     <img src="../../assets/{{slide.id}}.jpg" alt="" class="priceimg">
 <h2 >{{slide.title}}</h2>
 <h5 class="shortTitle">{{slide.shortDescription}}</h5>
-    <ul>
+    <ul class="table_data">
       <li *ngFor="let des  of slide.descriptionArray" [innerHTML]="des"></li>
     </ul>
   </div>
@@ -139,7 +139,7 @@
           <td>
             <div class="comparison_box">
               <h3 class="text-center">Business</h3>
-              <h4>Starting $199/montd</h4>
+              <h4>Starting $199/month</h4>
             </div>
           </td>
           <td class="pad_right_zero">
