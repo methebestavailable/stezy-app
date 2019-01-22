@@ -8,15 +8,16 @@ import { PricingComponent } from './pricing/pricing.component';
 
 import { ProductComponent } from './product/product.component';
 import { LearnComponent } from './learn/learn.component';
+import { BlogComponent } from './blog/blog.component';
 
 const routes: Routes = [
   // {
-
       { path: 'home', component: HomeComponent },
       { path: 'about', component: AboutComponent },
       { path: 'pricing', component: PricingComponent },
       { path: 'product', component: ProductComponent },
       { path: 'learn', component: LearnComponent },
+      { path: 'blog',component:BlogComponent}
     // path: 'home',Component: HomeComponent,
     // path: 'about',Component: AboutComponent,
     // children: [
