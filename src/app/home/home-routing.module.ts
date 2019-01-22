@@ -9,6 +9,8 @@ import { PricingComponent } from './pricing/pricing.component';
 import { ProductComponent } from './product/product.component';
 import { LearnComponent } from './learn/learn.component';
 import { BlogComponent } from './blog/blog.component';
+import { ContactComponent } from './contact/contact.component';
+import { PrivacyComponent } from './privacy/privacy.component';
 
 const routes: Routes = [
   // {
@@ -17,7 +19,9 @@ const routes: Routes = [
       { path: 'pricing', component: PricingComponent },
       { path: 'product', component: ProductComponent },
       { path: 'learn', component: LearnComponent },
-      { path: 'blog',component:BlogComponent}
+      { path: 'blog',component:BlogComponent},
+      { path: 'contact', component: ContactComponent },
+      { path: 'privacy', component: PrivacyComponent }
     // path: 'home',Component: HomeComponent,
     // path: 'about',Component: AboutComponent,
     // children: [

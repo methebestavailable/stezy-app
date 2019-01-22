@@ -14,6 +14,8 @@ import { AboutComponent } from './about/about.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { ProductComponent } from './product/product.component';
 import { BlogComponent } from './blog/blog.component';
+import { ContactComponent } from './contact/contact.component';
+import { PrivacyComponent } from './privacy/privacy.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,8 @@ import { BlogComponent } from './blog/blog.component';
     PricingComponent,
     ProductComponent,
     BlogComponent,
+    ContactComponent,
+    PrivacyComponent,
   ],
   imports: [
     CommonModule,
