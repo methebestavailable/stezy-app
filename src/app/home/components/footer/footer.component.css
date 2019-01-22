@@ -26,6 +26,9 @@ ul.company_list, ul.doc_list, .social_icon{
     margin: 5px 10px 10px 7px;
     font-size: 17px;
 }
+.social_icon a{
+    color: #333!important;
+}
 .icon_list p {
     line-height: 1;
 }
