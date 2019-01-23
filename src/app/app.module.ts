@@ -8,7 +8,7 @@ import { NO_ERRORS_SCHEMA } from '@angular/core';
 
 
 import { CarouselModule } from 'ngx-owl-carousel-o';
-import { LocationStrategy, HashLocationStrategy } from '@angular/common';
+import { LocationStrategy, HashLocationStrategy, PathLocationStrategy } from '@angular/common';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
@@ -28,7 +28,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     NgbModule
   ],
   providers: [
-    {provide: LocationStrategy, useClass: HashLocationStrategy},
+    {provide: LocationStrategy, useClass: PathLocationStrategy},
   ],
   schemas: [ NO_ERRORS_SCHEMA,CUSTOM_ELEMENTS_SCHEMA  ],
 
