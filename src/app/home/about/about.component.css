@@ -8,8 +8,9 @@ p.stezy_div {
     margin: 150px 0 0 0;
 }
 .banner h5 {
-    color: #4385f5;
-    font-weight: 800;
+        color: #000;
+        font-weight: bold;
+        font-size: 32px;
 }
 p.help_div{
     color: #5c5e64;
@@ -28,7 +29,7 @@ p.help_div{
     display: none;
 }
 h4.vision_heading {
-    font-size: 16px;
+    font-size: 27px;
     font-weight: 800;
     margin-top: 60px;
 }
@@ -112,7 +113,7 @@ button.join_btn {
     color: #81899e;
 }
 .careers_heading h5 {
-    margin: 0px 0 26px 0;
+    margin: 30px 0 30px 0;
     position: relative;
 }
 .careers_heading h5:after {

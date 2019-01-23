@@ -2,35 +2,47 @@
   <div class="container">
     <div class="row">
       <div class="col-md-3 footer_logo footer_contant mtextcenter">
-        <img src="../../../assets/logo.png">
-        <p>7632 Sliver Spear Ave.<br> Bardstown, KY 40004</p>
+<a href="#"> <img src="../../../assets/logo.png"></a>
+        <p>International Institute of Information Technology,<br />Gachibowli - Hyderabad</p>
       </div>
       <div class="col-md-3 footer_contant mtextcenter">
         <h6>COMPANY</h6>
         <ul class="company_list">
-          <li>About</li>
-          <li>News</li>
-          <li>Contact Us</li>
-          <li>Careers </li>
+<li><a [routerLink]="['/about']">About </a> </li>
+          <!-- <li>News</li> -->
+<li> <a [routerLink]="['/contact']">Contact Us </a> </li>
+          <li> <a [routerLink] = "['/about']">Careers </a> </li>
         </ul>
       </div>
       <div class="col-md-3 footer_contant mtextcenter">
         <h6>RESOURCES</h6>
         <ul class="doc_list">
-          <li>Docs and APIs</li>
-          <li>Support</li>
-          <li>Blog</li>
-          <li>System Status</li>
+          <li> <a [routerLink]="['/learn']"> Docs and APIs</a> </li>
+          <li> <a [routerLink]="['/learn']">Support </a> </li>
+          <li> <a [routerLink]="['/blog']">Blog </a> </li>
+          <!-- <li>System Status</li> -->
         </ul>
       </div>
       <div class="col-md-3 icon_list footer_contant mtextcenter">
-        <p>&copy; 2019 Stegy.com</p>
-        <p>Terms of Use & License</p>
-        <p>Privacy Policy</p>
+        <p>&copy; 2019 Stezy.com</p>
+        <p> <a href="">Terms of Use & License </a> </p>
+        <p> <a [routerLink]="['/privacy']"> Privacy Policy</a> </p>
         <ul class="social_icon">
-          <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-          <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
-          <li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+          <li>
+            <a href="https://www.facebook.com/stezyblockchain" target="blank">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/Stezyblockchain" target="blank">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/company/stezy" target="blank">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+          </li>
         </ul>
       </div>
     </div>

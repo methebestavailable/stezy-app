@@ -3,14 +3,14 @@
     background-size: cover;
 }
 .learn_banner h2 {
-    color: #4385f5;
+    color: #000;
     margin: 150px 0 0 0;
-    font-size: 24px;
-    font-weight: 800;
+    font-size: 32px;
+    font-weight: bold;
 }
 .learn_banner h3 {
-    color: #4385f5;
-    font-size: 22px;
+    color: #000;
+    font-size: 16px;
     font-weight: 600;
     margin: 0 0 170px 0;
 }
@@ -518,6 +518,9 @@ ul.nav.nav-tabs li.tab8.active{
     }
     .feartud_list {
         margin-left: 0;
+    }
+    .getting_div ul {
+        padding-left: 20px;
     }
 }
 
