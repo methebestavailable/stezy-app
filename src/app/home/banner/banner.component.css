@@ -53,6 +53,10 @@ font-size: 32px;
   cursor: pointer;
   margin-right: 15px;
 }
+.sign_bt button:hover{
+  background-color: #34a853;
+  transition: all .5s ease;
+}
 .modal_bg {
   background: url("../../../assets/request_demo_bg.jpg") no-repeat center center ;
 }

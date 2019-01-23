@@ -16,11 +16,28 @@
   font-weight: 600;
   margin: 0 0 170px 0;
 }
-
+.policy_heading{
+  margin-top: 20px;
+}
+.policy_heading:after{
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          top: 65px;
+          height: 2px;
+          width: 241px;
+          background: #000;
+          margin: 0 auto;
+}
 .getting_div h3 {
   color: #4385f5;
   font-size: 20px;
   font-weight: bold;
+}
+.margin_bot_30px{
+  margin-bottom: 50px;
 }
 
 .getting_div h5 {
