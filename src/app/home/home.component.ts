@@ -149,7 +149,7 @@ constructor() {
       ],},
     { 
       id:4,
-      backgroundimg: "../../../assets/valuebg1.jpg",
+      backgroundimg: "../../../assets/valuebg4.jpg",
       number: "04",
       heading: "Digital Asset Transfer",
       listi: "Intermediary will initially support the process playing the role of the ledger",
@@ -170,7 +170,7 @@ constructor() {
     },
     {
       id:5,
-      backgroundimg: "../../../assets/valuebg2.jpg",
+      backgroundimg: "../../../assets/valuebg5.jpg",
       number: "05",
       heading:    "HealthCare", 
       listi:      "Personal health information management",
@@ -194,7 +194,7 @@ constructor() {
       ],
     },
     { 
-      backgroundimg: "../../../assets/valuebg3.jpg",
+      backgroundimg: "../../../assets/valuebg6.jpg",
       number: "06",
       heading: "Insurance",
       listi: "Revolutionize the trust that powers Insurance",
