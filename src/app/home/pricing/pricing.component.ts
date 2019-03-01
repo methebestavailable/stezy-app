@@ -41,8 +41,9 @@ export class PricingComponent implements OnInit {
     this.slidesStore = [
       {
         id: "01",
-        title: "Free",
-        shortDescription: "Get Started Free",
+        title: "Starter",
+        shortDescription: "7 days Free Trial",
+        membership: "1 Year Member Ship Free then $ 0 month",
         descriptionArray: [
           "For learning, prototypes, and early development",
           "Lifetime free Node access to Stezy Private Blockchain",
@@ -52,7 +53,8 @@ export class PricingComponent implements OnInit {
       {
         id: "02",
         title: "Business",
-        shortDescription: "Starting $199/month",
+        shortDescription: "Starting $199 month",
+        membership: "1 Year Member Ship Free then $ 49 month",
         descriptionArray: [ 
            "Designed for every stage of <br/>  your application",
            "Pay only for the nodes you <br/> provision ",
@@ -67,6 +69,7 @@ export class PricingComponent implements OnInit {
         id: "03",
         title: "Enterprise",
         shortDescription: "Contact Us",
+        membership: "1 Year Member Ship Free then $ 99 month",
         descriptionArray: [
          "Includes proactive support and advanced  enterprise features  ",
          "Contact Us",

@@ -7,18 +7,26 @@
 </div>
 <div class="container price_table">
 <h2 class="text-center font24px">Pricing</h2>
+  <p class="price_para">With Stezy Blockchain, you pay for the Node you create. The Stezy managed Blockchain network consists of one or more
+    partners, and each partner member has peer nodes with can communicate seamlessly with the consortium partners.
+    Additionally, members can write data to the network.
+    One Year Membership is absolutely free. You will only be charged for the peer nodes, peer node storage, data written
+    to the network, and data transfer all consolidated as part of Subscription. Depending on the requirement you have the
+    choice to select any of the plans. You can check our Feature comparison section.
+    The pricing below is for Stezy Managed Blockchain for Ethereum and Quorum.
+  </p>
 <owl-carousel-o  [options]="customOptions" (initialized)="getData($event)" id="cro">
   <ng-container *ngFor="let slide of slidesStore ; let i = index">
     <ng-template carouselSlide="1">
       <div class="col-md-12 ">
-<div class="table_box text-center mob_height " [ngClass]=" slide.height ? 'heightFix' : ''">
-    <img src="../../assets/{{slide.id}}.jpg" alt="" class="priceimg">
-<h2 >{{slide.title}}</h2>
-<h5 class="shortTitle">{{slide.shortDescription}}</h5>
-    <ul class="table_data">
-      <li *ngFor="let des  of slide.descriptionArray" [innerHTML]="des"></li>
-    </ul>
-  </div>
+      <div class="table_box text-center mob_height " [ngClass]=" slide.height ? 'heightFix' : ''">
+          <img src="../../assets/{{slide.id}}.jpg" alt="" class="priceimg">
+      <h2>{{slide.title}} <span class="started_free">{{slide.shortDescription}} </span> </h2>
+          <h5 class="shortTitle"> {{slide.membership}} </h5>
+          <ul class="table_data">
+            <li *ngFor="let des  of slide.descriptionArray" [innerHTML]="des"></li>
+          </ul>
+        </div>
 </div>
     </ng-template>
   </ng-container>
@@ -303,19 +311,19 @@
     <thead>
       <tr class="no_borde_dt">
         <td class="width_33"></td>
-        <td>
+<td class="width_33">
           <div class="comparison_box">
             <h3 class="text-center">FREE</h3>
             <h4> Get Started Free</h4>
           </div>
         </td>
-        <td>
+<td class="width_33">
           <div class="comparison_box">
             <h3 class="text-center">Business</h3>
             <h4>Starting $199/montd</h4>
           </div>
         </td>
-        <td class="pad_right_zero">
+<td class="pad_right_zero width_33">
           <div class="comparison_box">
             <h3 class="text-center">Enterprise</h3>
             <h4>Contact Us</h4>
@@ -332,45 +340,45 @@
         </tr>
         <tr>
             <td>Highly Available Network</td>
-            <td align="center"><span class="dot_green"></span></td>
-            <td align="center"><span class="dot_green"></span></td>
-            <td align="center"><span class="dot_green"></span></td>
+            <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+            <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+            <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
         </tr>
         <tr>
             <td>Private Network Setup</td>
-            <td align="center"><span class="dot_red"></span></td>
-            <td align="center"><span class="dot_green"></span></td>
-            <td align="center"><span class="dot_green"></span></td>
+            <td align="center"><span class="dot_red"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+            <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+            <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
         </tr>
 <tr>
   <td>Choice of Blockchain Framework</td>
-  <td align="center"><span class="dot_red"></span></td>
-  <td align="center"><span class="dot_green"></span></td>
-  <td align="center"><span class="dot_green"></span></td>
+  <td align="center"><span class="dot_red"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
 </tr>
 <tr>
   <td>Cross Region Network</td>
-  <td align="center"><span class="dot_red"></span></td>
-  <td align="center"><span class="dot_green"></span></td>
-  <td align="center"><span class="dot_green"></span></td>
+  <td align="center"><span class="dot_red"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
 </tr>
 <tr>
   <td>External Organisation Onboarding</td>
-  <td align="center"><span class="dot_red"></span></td>
-  <td align="center"><span class="dot_green"></span></td>
-  <td align="center"><span class="dot_green"></span></td>
+  <td align="center"><span class="dot_red"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
 </tr>
 <tr>
   <td>Choice of Cloud Provider</td>
-  <td align="center"><span class="dot_red"></span></td>
-  <td align="center"><span class="dot_red"></span></td>
-  <td align="center"><span class="dot_green"></span></td>
+  <td align="center"><span class="dot_red"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_red"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
 </tr>
 <tr>
   <td>In-house Deployment</td>
-  <td align="center"><span class="dot_red"></span></td>
-  <td align="center"><span class="dot_red"></span></td>
-  <td align="center"><span class="dot_green"></span></td>
+  <td align="center"><span class="dot_red"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_red"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
 </tr>
 <tr class="config_heading">
   <th>Security</th>
@@ -380,51 +388,51 @@
 </tr>
 <tr>
   <td>Always On Authentication</td>
-  <td align="center"><span class="dot_green"></span></td>
-  <td align="center"><span class="dot_green"></span></td>
-  <td align="center"><span class="dot_green"></span></td>
+  <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
 </tr>
 <tr>
   <td>End To End Encryption</td>
-  <td align="center"><span class="dot_green"></span></td>
-  <td align="center"><span class="dot_green"></span></td>
-  <td align="center"><span class="dot_green"></span></td>
+  <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
 </tr>
 <tr>
 <td>User Pools</td>
-  <td align="center"><span class="dot_green"></span></td>
-  <td align="center"><span class="dot_green"></span></td>
-  <td align="center"><span class="dot_green"></span></td>
+  <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
 </tr>
 <tr>
   <td>IP Whitelisting</td>
-  <td align="center"><span class="dot_red"></span></td>
-  <td align="center"><span class="dot_green"></span></td>
-  <td align="center"><span class="dot_green"></span></td>
+  <td align="center"><span class="dot_red"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
 </tr>
 <tr>
   <td>Dedicated Private Network</td>
-  <td align="center"><span class="dot_red"></span></td>
-  <td align="center"><span class="dot_green"></span></td>
-  <td align="center"><span class="dot_green"></span></td>
+  <td align="center"><span class="dot_red"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
 </tr>
 <tr>
   <td>VPC Integration</td>
-  <td align="center"><span class="dot_red"></span></td>
-  <td align="center"><span class="dot_red"></span></td>
-  <td align="center"><span class="dot_green"></span></td>
+  <td align="center"><span class="dot_red"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_red"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
 </tr>
 <tr>
   <td>VPC Peering</td>
-  <td align="center"><span class="dot_red"></span></td>
-  <td align="center"><span class="dot_red"></span></td>
-  <td align="center"><span class="dot_green"></span></td>
+  <td align="center"><span class="dot_red"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_red"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
 </tr>
 <tr>
   <td>VPN Tunneling</td>
-  <td align="center"><span class="dot_red"></span></td>
-  <td align="center"><span class="dot_red"></span></td>
-  <td align="center"><span class="dot_green"></span></td>
+  <td align="center"><span class="dot_red"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_red"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
 </tr>
 <tr class="config_heading">
   <th>Disaster Recovery</th>
@@ -434,9 +442,9 @@
 </tr>
 <tr>
   <td>Fully Managed Backups</td>
-  <td align="center"><span class="dot_red"></span></td>
-  <td align="center"><span class="dot_red"></span></td>
-  <td align="center"><span class="dot_green"></span></td>
+  <td align="center"><span class="dot_red"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_red"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
 </tr>
 <tr class="config_heading">
   <th>Monitoring</th>
@@ -458,21 +466,21 @@
 </tr>
 <tr>
   <td>Knowledge Base Access</td>
-  <td align="center"><span class="dot_green"></span></td>
-  <td align="center"><span class="dot_green"></span></td>
-  <td align="center"><span class="dot_green"></span></td>
+  <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
 </tr>
 <tr>
   <td>Platform & UI support</td>
-  <td align="center"><span class="dot_green"></span></td>
-  <td align="center"><span class="dot_green"></span></td>
-  <td align="center"><span class="dot_green"></span></td>
+  <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
 </tr>
 <tr>
   <td>End to End Network Supportt</td>
-  <td align="center"><span class="dot_red"></span></td>
-  <td align="center"><span class="dot_red"></span></td>
-  <td align="center"><span class="dot_green"></span></td>
+  <td align="center"><span class="dot_red"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_red"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
+  <td align="center"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span></td>
 </tr>
 <tr>
   <td>Response time SLA</td>
@@ -502,8 +510,8 @@
   </table>
 </div>
   <div class="mob_text_center">
-      <span class="yes_no"><span class="dot_green"></span> yes </span>
-      <span class="no_yes"><span class="dot_red"></span>No</span>
+      <span class="yes_no"><span class="dot_green"><i class="fa fa-check" aria-hidden="true"></i> </span> yes </span>
+      <span class="no_yes"><span class="dot_red"><i class="fa fa-check" aria-hidden="true"></i> </span>No</span>
   </div>
 </div>
 <app-footer></app-footer>
