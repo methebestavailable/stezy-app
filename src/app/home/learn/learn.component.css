@@ -126,7 +126,7 @@ li.active a {
     text-align: center;
     border: 1px solid #ccc;
     border-radius: 10px;
-    max-width: 200px;
+    max-width: 235px;
     height: 165px;
     margin: 0 30px 30px 10px;
 }
@@ -144,6 +144,7 @@ li.active a {
     margin: 14px 0 36px 0;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
 }
 .tab_contant img {
     margin-top: 20px;
@@ -275,15 +276,6 @@ ul.nav.nav-tabs li.tab8.active{
     background: #f3f6fd;
     padding:0;
 }
-/* ..side_menu{
-        position: fixed;
-        height: 100vh;
-        top: 0px;
-        width: 100%;
-        z-index: 9999;
-        left:-100%;
-        transition: all 1s ease;
-    } */
     .showin{
         left:0!important;
         transition: all 1s ease!important;
@@ -331,6 +323,21 @@ ul.nav.nav-tabs li.tab8.active{
     .rowset{
         margin-left:0px;
         margin-right:0px
+    }
+    .getting_ul{
+        background: none;
+        padding: 0px;
+    }
+     .getting_ul li {
+       margin:15px !important;
+       margin-top: 0px !important;
+    }
+     .getting_ul li a{
+       margin-top: 25px;
+       padding: 0px;
+    }
+    .getting_ul li h4{
+       margin: 14px 0px;
     }
 @media only screen and (max-width: 1024px) and (max-width:1050px){
     .tab_contant {

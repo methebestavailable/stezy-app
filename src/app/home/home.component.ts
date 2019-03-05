@@ -82,7 +82,7 @@ constructor() {
   this.slidesStoreA = [
     { 
       id:1,
-      backgroundimg: "../../../assets/valuebg1.jpg",
+      backgroundimg: '../../../assets/valuebg1.jpg',
       number: "01",
       heading: "Supply Chain",
       listi: "Create a shared ledger as the single source of truth",
@@ -267,7 +267,7 @@ getDataC(data: SlidesOutputData) {
 }
 
 ngOnInit(): void{
-
+  debugger;
 }
 
 
@@ -276,6 +276,8 @@ FixDisplaySlider(key){
   this.key_popup = key;
 }
 returnSlider(){
-  this.data =  true
+  debugger;
+  alert('hi');
+  this.data =  true;
 }
 }

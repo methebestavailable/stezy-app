@@ -19,7 +19,7 @@ const routes: Routes = [
       { path: 'pricing', component: PricingComponent },
       { path: 'product', component: ProductComponent },
       { path: 'learn', component: LearnComponent },
-      { path: 'blog',component:BlogComponent},
+      { path: 'blog', component: BlogComponent},
       { path: 'contact', component: ContactComponent },
       { path: 'privacy', component: PrivacyComponent }
     // path: 'home',Component: HomeComponent,

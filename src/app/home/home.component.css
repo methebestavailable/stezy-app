@@ -207,6 +207,7 @@ section.domains_div {
 
 .slider_text {
   position: relative;
+  height: 400px;
 }
 
 .s_number {
@@ -279,7 +280,7 @@ h2.s_number {
 }
 
 .slidecontent {
-  padding: 200px 40px 40px 40px;
+  padding: 80px 40px 80px 40px;
 }
 
 .arrow_bg {
