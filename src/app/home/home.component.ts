@@ -276,8 +276,6 @@ FixDisplaySlider(key){
   this.key_popup = key;
 }
 returnSlider(){
-  debugger;
-  alert('hi');
   this.data =  true;
 }
 }
