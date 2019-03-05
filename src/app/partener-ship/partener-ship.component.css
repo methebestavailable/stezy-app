@@ -1,22 +1,21 @@
-.banner{
-    background:#e7eefc;
+.partener_banner{
+    background:#00999a;
 }
-p.stezy_div {
-    color: #5c5e64;
-    font-size: 17px;
-    font-weight: 600;
-    margin: 150px 0 0 0;
+.banner_text {
+    text-align: center;
 }
-.banner h5 {
-        color: #000;
-        font-weight: bold;
-        font-size: 32px;
+.partener_text{
+    color: #fff;
+    padding: 0px 230px 26px 230px;
 }
-p.help_div{
-    color: #5c5e64;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: .5;
+.banner_text h6{
+    color: #fff;
+}
+img.partener_img {
+    margin: 60px 0 30px 0;
+}
+.partener_heading{
+    color: #fff;
 }
 .line_img {
     width: 50px;
@@ -28,50 +27,9 @@ p.help_div{
 .line1_img{
     display: none;
 }
-h4.vision_heading {
-    font-size: 27px;
-    font-weight: 800;
-    margin-top: 60px;
-}
-.mission_div {
-    margin: 70px 0;
-}
+
 .image_div{
     text-align: center;
-}
-.vision_contant{
-    color:#81899e;
-}
-.team_leader{
-    text-align: center;
-    margin: 20px 0;
-}
-.leadership_heading{
-    text-align:center;
-}
-.leadership_heading h3 {
-    font-size: 27px;
-    font-weight: 800;
-}
-.leadership_heading p {
-    color: #81899e;
-    padding: 0 340px;
-    font-size: 18px;
-    margin-bottom: 30px;
-}
-.team_leader img {
-    /* width: 190px;
-    height: 190px; */
-    border-radius: 100px;
-}
-.team_leader h5 {
-    font-size: 18px;
-    margin: 12px 0 0 0;
-    color: #2a2a31;
-}
-.team_leader p {
-    font-size: 15px;
-    color: #81899e;
 }
 .join_our{
     text-align:center;
@@ -94,9 +52,10 @@ button.join_btn {
 /* careers_heading */
 .career_div{
     background: #e7eefc;
-    padding-bottom: 300px;
+    padding-bottom: 350px;
     margin-bottom: 134px;
     position: relative;
+    margin-top: 50px;
 }
 .careers_heading{
     text-align:center;
@@ -136,10 +95,10 @@ ul.career_list li {
     margin: 10px 0;
 }
 .form_div {
-    width: 44%;
+    width: 36%;
     background: #fff;
     margin: 70px auto;
-    top: 44%;
+    top: 8%;
     position: absolute;
     left: 0;
     right: 0;
@@ -160,9 +119,9 @@ ul.career_list li {
 }
 .form-group img{
     position: relative;
-    top: 30px;
+    top: 37px;
     z-index: 2;
-    left: 5px;
+    left: -35px;
     width: 15px;
 }
 .form-group input{
@@ -181,16 +140,20 @@ ul.career_list li {
     position: relative;
     top: 42px;
 }
+.form-group{
+    margin: 0 !important;
+}
+.padd_right4{
+    padding: 0;
+}
 .padd_right5{
-    padding-right: 5px !important;
+    padding: 5px 0 34px 0 !important;
 }
 .padd_left5{
     padding-left: 5px !important;
 }
 @media only screen and (max-width: 960px) {
-    .leadership_heading p{
-        padding: 0;
-    }
+    
     .form_div{
         width: 80%;
     }
@@ -199,18 +162,12 @@ ul.career_list li {
     }
 }
 @media only screen and (max-width: 767px) {
-    .leadership_heading p{
-        padding: 0;
-    }
+    
     p.stezy_div {
         margin: 0;
     }
     .banner {
     padding-bottom: 50px;
-}
-h4.vision_heading{
-    margin-top:20px;
-    text-align: center;
 }
 .image_div .line_img{
     display: none;
@@ -232,18 +189,12 @@ h4.vision_heading{
 .form_row{
     margin: -14px 0;
 }
-p.vision_contant {
-    text-align: center;
-}
 .career_div{
     margin-bottom: 226px;
 }
 section.newletter{
     border-top: none;
     padding: 0 0;
-}
-.mission_div{
-    margin: 30px 0;
 }
 .line1_img{
     display: block;
@@ -259,18 +210,12 @@ section.newletter{
     }
 }
 @media only screen and (max-width: 375px) {
-    .leadership_heading p{
-        padding: 0;
-    }
+    
     p.stezy_div {
         margin: 0;
     }
     .banner {
     padding-bottom: 50px;
-}
-h4.vision_heading{
-    margin-top:20px;
-    text-align: center;
 }
 .image_div .line_img{
     display: none;
@@ -292,18 +237,12 @@ h4.vision_heading{
 .form_row{
     margin: -14px 0;
 }
-p.vision_contant {
-    text-align: center;
-}
 .career_div{
     margin-bottom: 226px;
 }
 section.newletter{
     border-top: none;
     padding: 0 0;
-}
-.mission_div{
-    margin: 30px 0;
 }
 .line1_img{
     display: block;
