@@ -11,6 +11,7 @@ import { LearnComponent } from './learn/learn.component';
 import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
 import { PrivacyComponent } from './privacy/privacy.component';
+import { PartenerShipComponent } from '../partener-ship/partener-ship.component';
 
 const routes: Routes = [
   // {
@@ -21,7 +22,8 @@ const routes: Routes = [
       { path: 'learn', component: LearnComponent },
       { path: 'blog', component: BlogComponent},
       { path: 'contact', component: ContactComponent },
-      { path: 'privacy', component: PrivacyComponent }
+      { path: 'privacy', component: PrivacyComponent },
+      { path: 'PartenerShip', component: PartenerShipComponent }
     // path: 'home',Component: HomeComponent,
     // path: 'about',Component: AboutComponent,
     // children: [

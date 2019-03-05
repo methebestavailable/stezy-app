@@ -1,0 +1,254 @@
+.partener_banner{
+    background:#00999a;
+}
+.banner_text {
+    text-align: center;
+}
+.partener_text{
+    color: #fff;
+    padding: 0px 230px 26px 230px;
+}
+.banner_text h6{
+    color: #fff;
+}
+img.partener_img {
+    margin: 60px 0 30px 0;
+}
+.partener_heading{
+    color: #fff;
+}
+.line_img {
+    width: 50px;
+}
+
+
+/* vission & mission */
+
+.line1_img{
+    display: none;
+}
+
+.image_div{
+    text-align: center;
+}
+.join_our{
+    text-align:center;
+}
+button.join_btn {
+    background: #4385f5;
+    border: none;
+    color: #fff;
+    padding: 12px 22px;
+    border-radius: 50px;
+    font-size: 10px;
+}
+.join_our{
+    margin: 40px 0;
+}
+.join_our{
+    margin: 20px 0 70px 0;
+}
+
+/* careers_heading */
+.career_div{
+    background: #e7eefc;
+    padding-bottom: 350px;
+    margin-bottom: 134px;
+    position: relative;
+    margin-top: 50px;
+}
+.careers_heading{
+    text-align:center;
+}
+.career_list{
+    list-style-type:none;
+}
+.careers_heading h3 {
+    font-size: 27px;
+    font-weight: 800;
+    margin: 34px 0 7px 0;
+}
+.careers_heading P{
+    color: #81899e;
+}
+.careers_heading h5 {
+    margin: 30px 0 30px 0;
+    position: relative;
+}
+.careers_heading h5:after {
+    position: absolute;
+    content: "";
+    width: 34px;
+    height: 2px;
+    background: #81899e;
+    bottom: -14px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+ul.career_list {
+    text-align: center;
+    margin: 9px 0;
+    padding: 0;
+}
+ul.career_list li {
+    margin: 10px 0;
+}
+.form_div {
+    width: 36%;
+    background: #fff;
+    margin: 70px auto;
+    top: 8%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}
+.form11{
+    margin: 0 auto;
+}
+.form_div h5 {
+    text-align: center;
+    margin: 4px 0 24px 0;
+    font-size: 16px;
+}
+.input_box img{
+    position: absolute;
+}
+.form-group img{
+    position: relative;
+    top: 37px;
+    z-index: 2;
+    left: -35px;
+    width: 15px;
+}
+.form-group input{
+    text-indent: 20px;
+}
+.user_form {
+    margin: -14px auto;
+}
+.submit_btn {
+    background: #4385f5;
+    color: #fff;
+    border-radius: 50px;
+    padding: 9px 40px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 42px;
+}
+.form-group{
+    margin: 0 !important;
+}
+.padd_right4{
+    padding: 0;
+}
+.padd_right5{
+    padding: 5px 0 34px 0 !important;
+}
+.padd_left5{
+    padding-left: 5px !important;
+}
+@media only screen and (max-width: 960px) {
+    
+    .form_div{
+        width: 80%;
+    }
+    p.stezy_div {
+        margin: 70px 0 0 0;
+    }
+}
+@media only screen and (max-width: 767px) {
+    
+    p.stezy_div {
+        margin: 0;
+    }
+    .banner {
+    padding-bottom: 50px;
+}
+.image_div .line_img{
+    display: none;
+}
+.form_div[_ngcontent-c1] {
+    width: 90%;
+    top: inherit;
+    padding: 20px;
+}
+.user_form{
+    margin: -8px auto;
+}
+.padd_right5{
+    padding-right: 14px !important;
+}
+.padd_left5{
+    padding-left: 14px !important;
+}
+.form_row{
+    margin: -14px 0;
+}
+.career_div{
+    margin-bottom: 226px;
+}
+section.newletter{
+    border-top: none;
+    padding: 0 0;
+}
+.line1_img{
+    display: block;
+    margin: 0 auto;
+}
+.form_div {
+    margin: 25px auto;
+}
+}
+@media only screen and (max-width: 667px) {
+    .form_div {
+        width: 90% !important;
+    }
+}
+@media only screen and (max-width: 375px) {
+    
+    p.stezy_div {
+        margin: 0;
+    }
+    .banner {
+    padding-bottom: 50px;
+}
+.image_div .line_img{
+    display: none;
+}
+.form_div[_ngcontent-c1] {
+    width: 90%;
+    top: inherit;
+    padding: 20px;
+}
+.user_form{
+    margin: -8px auto;
+}
+.padd_right5{
+    padding-right: 14px !important;
+}
+.padd_left5{
+    padding-left: 14px !important;
+}
+.form_row{
+    margin: -14px 0;
+}
+.career_div{
+    margin-bottom: 226px;
+}
+section.newletter{
+    border-top: none;
+    padding: 0 0;
+}
+.line1_img{
+    display: block;
+    margin: 0 auto;
+}
+.form_div {
+    margin: 25px auto;
+}
+}

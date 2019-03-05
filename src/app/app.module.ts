@@ -11,11 +11,13 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { LocationStrategy, HashLocationStrategy, PathLocationStrategy } from '@angular/common';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { PartenerShipComponent } from './partener-ship/partener-ship.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    PartenerShipComponent,
   ],
   imports: [
     BrowserModule,

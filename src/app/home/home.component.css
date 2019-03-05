@@ -13,7 +13,9 @@
   padding: 10px 100px 30px 50px;
   overflow-y: scroll;
 }
-
+img.dashed_img {
+  position: relative;
+}
 button.close span {
   top: 18px;
   position: fixed;
@@ -171,9 +173,9 @@ section.domains_div {
   left: 0px;
   right: 0px;
   margin: auto;
-  top: 72px;
   border: 1px dashed #fff;
   position: absolute;
+  margin-top: 63px;
 }
 
 .implement {
@@ -263,6 +265,7 @@ h2.s_number {
   border-bottom: 1px solid #e5e5e5;
   display: inline-block;
   margin-top: 20px;
+  margin-left: 15px;
 }
 
 .nopadd {

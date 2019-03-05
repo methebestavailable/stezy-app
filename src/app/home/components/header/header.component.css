@@ -92,6 +92,27 @@
         margin: 10px;
     }
 }
+@media only screen and (max-width: 767px) {
+    ul.navbar-nav{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .login_user ul li{
+        display:block;
+    }
+    .login_user {
+         margin-left:0;
+         text-align: center;
+    }
+    .login_user ul li{
+        margin: 10px;
+    }
+   .login_user {
+       width: 100%;
+}
+}
+
+
 @media only screen and (max-width: 414px) {
     .navbar-nav{
         margin-left: 0;
