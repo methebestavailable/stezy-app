@@ -66,9 +66,13 @@ font-size: 32px;
   line-height: none;
 }
 .maxwidth_900{
-  max-width: 960px;
+  max-width: 1000px;
   margin: auto;
-  padding: 70px 0;
+  padding: 18px 0;
+}
+button.close.mob_margin {
+  top: 23px;
+  right: 40px;
 }
 .modal_bg .modal-title {
   width: 100%;
@@ -109,7 +113,7 @@ font-size: 32px;
   background: #4385f5;
   color: #fff;
   border-radius: 50px;
-  padding: 14px 30px;
+  padding: 10px 20px;
   margin: 0 auto;
   display: block;
   position: relative;
@@ -124,9 +128,15 @@ font-size: 32px;
 .form_div .form-group{
   margin-bottom: 0px;
 }
+.home_contant{
+  margin-top: 20px;
+}
+h4.modal_title {
+  margin: 10px 0 20px 0 !important;
+}
 .request_demo_para{
   font-size: 11px;
-  margin-top: 50px;
+  margin: 30px 0 0 0;
   padding: 0 30px;
 }
 span.demo_span {

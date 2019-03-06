@@ -328,9 +328,52 @@ ul.nav.nav-tabs li.tab8.active{
         padding: 0px;
         -webkit-appearance: none;
     }
+    .hide_div{
+        display:none;
+    }
     .rowset{
         margin-left:0px;
         margin-right:0px
+    }
+    .suggest_modal{
+        width: 45% !important;
+    }
+    .suggest_modal .form-group {
+        margin: 0;
+    }
+    .suggest_modal{
+        margin-top: 70px;
+    }
+    .request_body {
+        padding: 28px 47px;
+    }
+    .request_group {
+        margin-bottom: 16px !important;
+    }
+    .modal-content {
+        background: url(../../../assets/request_demo_bg.jpg) no-repeat center center #fff;
+    }
+    button.sub_btn {
+        margin-top: 15px;
+        background: #4385f5;
+        color: #fff;
+    }
+    .request_form {
+        margin-top: -20px;
+    }
+    .popup_close{
+        background: #4385f5;
+        color: #fff;
+    }
+    .suggest_modal .modal-footer {
+        padding: 5px 14px;
+    }
+    .suggest_modal h4.modal-title {
+        margin: 0 auto !important;
+    }
+    .suggest_modal .form-group label {
+        text-align: left !important;
+        display: block;
     }
 @media only screen and (max-width: 1024px) and (max-width:1050px){
     .tab_contant {

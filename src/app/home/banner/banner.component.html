@@ -19,7 +19,9 @@
 <ng-template #content let-modal >
 <div class="modal_bg">
   <div class="maxwidth_900">
-   <div class="col-md-12 text_center_mob"><img src="../../../assets/logo.png" alt=""></div>
+   <!-- <div class="col-md-12 text_center_mob">
+     <img src="../../../assets/logo.png" alt="">
+    </div> -->
   <div class="text-center">
     <h4 class="modal_title">Request a Demo</h4>
     <button type="button" class="close mob_margin" aria-label="Close" (click)="modal.dismiss('Cross click')">
@@ -29,7 +31,7 @@
   <div class="modal-body row">
     <div class="col-md-6 modal_body_text">
       <div>
-      <p>In this 30-minute session, our product consultant
+      <p class="home_contant">In this 30-minute session, our product consultant
       will walk you through a workflow that will demonstrate
       how you can build your blockchain solution with ease.</p>
         <h3 class="you_learn">You will learn how you can:</h3>
@@ -62,25 +64,25 @@
               <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
             </div>
           </div>
-          <div class="col-md-12">
+          <div class="col-md-6">
             <div class="form-group">
               <img src="../../../assets/phone.png">
               <input type="text" class="form-control" id="phone" placeholder="Phone Number" name="number">
             </div>
           </div>
-          <div class="col-md-12"> 
+          <div class="col-md-6">
+              <div class="form-group">
+                  <img src="../../../assets/user.png">
+                <input type="text" class="form-control" id="employe" placeholder="No. of Employee" name="employe">
+              </div>
+            </div>
+          <div class="col-md-6"> 
             <div class="form-group">
               <img src="../../../assets/company_icon.png">
               <input type="text" class="form-control" id="company" placeholder="Company" name="company">
             </div>
           </div>
-          <div class="col-md-12">
-            <div class="form-group">
-                <img src="../../../assets/user.png">
-              <input type="text" class="form-control" id="employe" placeholder="No. of Employee" name="employe">
-            </div>
-          </div>
-          <div class="col-md-12">
+          <div class="col-md-6">
             <div class="form-group">
               <img src="../../../assets/email.png">
               <input type="text" class="form-control" id="contry" placeholder="Country" name="contry">
