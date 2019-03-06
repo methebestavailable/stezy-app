@@ -52,58 +52,37 @@
               </button>
               <div class="tab-content">               
                 <div class="tab-pane active" id="home">
-                  <div class="row rowset getting_box">
-                    <div class="col-md-4 col-sm-6 col-6 tab_contant">
-                      <img src="../../../assets/tab_img1.png">
-                      <h4>Getting Started</h4>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-6 tab_contant">
-                      <img src="../../../assets/tab_img2.png">
-                      <h4>Need help?</h4>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-6 tab_contant" data-toggle="modal" data-target="#myModal">
-                      <img src="../../../assets/tab_img3.png">
-                      <h4>Suggest a feature?</h4>
-                      <!-- Modal -->
+                    <ul  class="nav nav-tabs getting_box getting_ul">
+                        <li  class="tab_contant">
+                        <a  data-toggle="tab" href="#getting">
+                        <img  src="../../../assets/tab_img1.png">
+                        <h4 >Getting Started</h4></a>
+                        </li>
                     
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-6 tab_contant">
-                      <img src="../../../assets/tab_img4.png">
-                      <h4>Billing and Refund</h4>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-6 tab_contant"><a class="partner" [routerLink]="['/PartenerShip']">
-                      <img src="../../../assets/tab_img5.png">
-                      <h4>Partnership/Events</h4>
-                      </a>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-6 tab_contant hide_div">
-                      <img src="../../../assets/tab_img6.png">
-                      <h4>Contribute to Stezy</h4>
-                    </div>
-                    <!-- <div class="col-md-12">
-                      <div class="feartud_heading">
-                        <h3>Featured Articles</h3>
-                      </div>
-                      <div class="row rowset">
-                        <div class="col-md-6">
-                          <ul class="feartud_list">
-                            <li><img src="../../../assets/right_arrow.png">Sharing designs with your team</li>
-                            <li><img src="../../../assets/right_arrow.png">Purchase premium elements</li>
-                            <li><img src="../../../assets/right_arrow.png">Advanced Search</li>
-                            <li><img src="../../../assets/right_arrow.png">Publish team templates</li>
-                          </ul>
-                        </div>
-                        <div class="col-md-6">
-                          <ul class="feartud_list">
-                            <li><img src="../../../assets/right_arrow.png">Accessing your invoice</li>
-                            <li><img src="../../../assets/right_arrow.png">Use photos in grids</li>
-                            <li><img src="../../../assets/right_arrow.png">Obtain print quality files</li>
-                            <li><img src="../../../assets/right_arrow.png">Upgrade to Canva for Work</li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div> -->
-                  </div> 
+                        <li  class="tab_contant">
+                        <a  data-toggle="tab" href="#support">
+                        <img  src="../../../assets/tab_img2.png">
+                        <h4 >Need help?</h4></a>
+                        </li>
+                    
+                        <li  class="tab_contant">
+                        <a  data-toggle="modal" data-target="#myModal">
+                        <img  src="../../../assets/tab_img3.png">
+                        <h4 >Suggest a feature?</h4></a>
+                        </li>
+                    
+                        <li  class="tab_contant">
+                        <a  data-toggle="tab" href="#billing">
+                        <img  src="../../../assets/tab_img4.png">
+                        <h4>Billing and Refund</h4></a>
+                        </li>
+                    
+                        <li class="tab_contant">
+                        <a  [routerLink]="['/PartenerShip']">
+                        <img src="../../../assets/tab_img5.png">
+                        <h4>Partnership/Events</h4></a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="tab-pane" id="getting">
                   <div class="getting_div">
