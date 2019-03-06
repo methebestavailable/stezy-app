@@ -26,7 +26,6 @@
         </div>
     </div>
 </div>
-
 <div class="container">
     <div class="col-md-12 heading_div">
         <p>We help to Accelerate innovation and transform Your business networks with blockchain Solutions.</p>
@@ -98,21 +97,20 @@
             <ng-container *ngFor="let slide of slidesStoreA">
                 <ng-template carouselSlide="1">
                     <div class="slider_text">
-                        <div class="slideimgbox"><img [src]="slide.backgroundimg" [alt]="slide.backgroundimg"></div>
+                        <div class="slideimgbox"><img  [src]="slide.backgroundimg" [alt]="slide.backgroundimg"></div>
                         <div class="slidecontent">
                             <h2 class="s_number">{{slide.number}}</h2>
                             <h3 class="trade_heading">{{slide.heading}}</h3>
                             <ul class="trade_list">
-                                <li> <img [src]="slide.arrow" class="arrow_bg" alt=""> {{slide.listi}}</li>
-                                <li> <img [src]="slide.arrow" class="arrow_bg" alt=""> {{slide.listii}}</li>
-                                <li> <img [src]="slide.arrow" class="arrow_bg" alt="">{{slide.listiii}}</li>
+                                <li>  {{slide.listi}}</li>
+                                <li>  {{slide.listii}}</li>
+                                <li> {{slide.listiii}}</li>
                             </ul>
                             <a (click)="FixDisplaySlider(slide.id)">{{slide.learmore}}</a>
                         </div>
                     </div>
                 </ng-template>
             </ng-container>
-
         </owl-carousel-o>
         <ng-template #show>
             <div class="slidernextshow">
@@ -120,21 +118,22 @@
                     <ng-container *ngFor="let slide of slidesStoreA">
                         <ng-template carouselSlide="1" *ngIf="key_popup == slide.id">
                             <div class="slider_text">
-                                <div class="slideimgbox"><img [src]="slide.backgroundimg" [alt]="slide.backgroundimg"></div>
+                                <div class="slideimgbox">
+                                    <img class="img-responsive" [src]="slide.backgroundimg" [alt]="slide.backgroundimg">
+                                </div>
                                 <div class="slidecontent">
                                     <h2 class="s_number">{{slide.number}}</h2>
                                     <h3 class="trade_heading">{{slide.heading}}</h3>
                                     <ul class="trade_list">
-                                        <li> <img [src]="slide.arrow" class="arrow_bg" alt=""> {{slide.listi}}</li>
-                                        <li> <img [src]="slide.arrow" class="arrow_bg" alt=""> {{slide.listii}}</li>
-                                        <li> <img [src]="slide.arrow" class="arrow_bg" alt="">{{slide.listiii}}</li>
+                                        <li> {{slide.listi}}</li>
+                                        <li>  {{slide.listii}}</li>
+                                        <li> {{slide.listiii}}</li>
                                     </ul>
                                     <!-- <a (click)="FixDisplaySlider()">{{slide.learmore}}</a> -->
                                 </div>
                             </div>
-
                             <div class="slider_text_right">
-                                <button type="button" class="close" aria-label="Close" (click)="returnSlider()">
+                                <button type="button" class="close" aria-label="Close" (click)="returnSlider($event)">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
 
@@ -149,18 +148,13 @@
                                     <li *ngFor="let potential  of slide.learn_more_potentialArray">
                                         <img src="../../assets/arrow_blue.png" alt=""><span>{{potential}} </span>
                                     </li>
-
                                 </ul>
                             </div>
                         </ng-template>
-
                     </ng-container>
-
-
                 </owl-carousel-o>
             </div>
         </ng-template>
-
     </div>
 </section>
 <!-- <div class="patnercontainer">
