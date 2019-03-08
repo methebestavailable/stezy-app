@@ -208,6 +208,7 @@ ul.career_list li {
     .banner {
     padding-bottom: 50px;
 }
+
 h4.vision_heading{
     margin-top:20px;
     text-align: center;
@@ -215,10 +216,11 @@ h4.vision_heading{
 .image_div .line_img{
     display: none;
 }
-.form_div[_ngcontent-c1] {
+.form_div {
     width: 90%;
     top: inherit;
     padding: 20px;
+    margin: 0 auto;
 }
 .user_form{
     margin: -8px auto;
@@ -258,7 +260,7 @@ section.newletter{
         width: 90% !important;
     }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (min-width: 375px) and (max-width: 414px) {
     .leadership_heading p{
         padding: 0;
     }
@@ -279,6 +281,7 @@ h4.vision_heading{
     width: 90%;
     top: inherit;
     padding: 20px;
+    margin: 0 auto;
 }
 .user_form{
     margin: -8px auto;
@@ -296,7 +299,7 @@ p.vision_contant {
     text-align: center;
 }
 .career_div{
-    margin-bottom: 226px;
+    margin-bottom: 130px;
 }
 section.newletter{
     border-top: none;
@@ -311,5 +314,11 @@ section.newletter{
 }
 .form_div {
     margin: 25px auto;
+}
+.banner h5 {
+    font-size: 24px;
+}
+.join_our{
+    margin: -6px 0 40px 0;
 }
 }

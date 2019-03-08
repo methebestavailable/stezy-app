@@ -503,6 +503,18 @@ ul.nav.nav-tabs li.tab8.active{
         -webkit-appearance: none;
     }
   }
+@media only screen and (min-width: 812px) and (max-width: 990px){
+ .padding_right {
+        max-width: 100%;
+        width: 100% !important;
+    }
+    .tab_contant{
+        max-width: 190px;
+    }
+    .suggest_modal{
+        width: 70% !important;
+    }
+}
 @media only screen and (max-width: 667px){
     .search-container {
         top: 20px;
@@ -571,6 +583,13 @@ ul.nav.nav-tabs li.tab8.active{
     }
     .getting_div ul {
         padding-left: 20px;
+    }
+    .getting_ul li{
+        margin:3px !important;
+    }
+    .suggest_modal{
+        width: inherit !important;
+        margin-top: 12px;
     }
 }
 

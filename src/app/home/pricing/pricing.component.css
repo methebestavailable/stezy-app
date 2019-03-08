@@ -214,6 +214,7 @@ span.started_free {
 thead tr td{
   padding-bottom: 0px;
 }
+
 @media(min-width:2200px) {
   .pricing_box {
     background: url('../../../assets/pricing_banner.jpg') no-repeat top;
@@ -319,4 +320,7 @@ thead tr td{
     background-size: contain;
     height: 137px;
   }
+.mobnopaddleft {
+    margin-top: 8px;
+}
 }

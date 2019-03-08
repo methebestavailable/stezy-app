@@ -21,7 +21,7 @@
       <div class="col-md-12 ">
       <div class="table_box text-center mob_height " [ngClass]=" slide.height ? 'heightFix' : ''">
           <img src="../../assets/{{slide.id}}.jpg" alt="" class="priceimg">
-      <h2>{{slide.title}} <span class="started_free">{{slide.shortDescription}} </span> </h2>
+          <h2>{{slide.title}} <span class="started_free">{{slide.shortDescription}} </span> </h2>
           <h5 class="shortTitle"> {{slide.membership}} </h5>
           <ul class="table_data">
             <li *ngFor="let des  of slide.descriptionArray" [innerHTML]="des"></li>

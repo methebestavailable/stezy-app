@@ -357,6 +357,26 @@ h2.s_number {
 .slider_text_right h4 {
   margin-top: 30px;
 }
+.slidernextshow{
+  margin-bottom: 10px;
+  max-height: 400px;
+  overflow: hidden;
+}
+.slider_text_right{
+  -webkit-animation: mymove 1s; /* Safari 4.0 - 8.0 */
+  animation: mymove 1s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+  from {right: -50%;}
+  to {right: 0px;}
+}
+
+@keyframes mymove {
+  from {right: -50%;}
+  to {right: 0px;}
+}
 
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .implement {
@@ -380,23 +400,14 @@ h2.s_number {
         max-width: 50%;
     }
 }
-.slidernextshow{
-  margin-bottom: 10px;
-  max-height: 400px;
-  overflow: hidden;
+@media only screen and (max-width: 767px){
+  .business_div.minheight320px {
+    height: 290px;
 }
-.slider_text_right{
-  -webkit-animation: mymove 1s; /* Safari 4.0 - 8.0 */
-  animation: mymove 1s;
 }
+@media only screen and (max-width: 375px)    {
+  .heading_div p {
+    font-size: 20px !important;
+  }
 
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes mymove {
-  from {right: -50%;}
-  to {right: 0px;}
-}
-
-@keyframes mymove {
-  from {right: -50%;}
-  to {right: 0px;}
 }

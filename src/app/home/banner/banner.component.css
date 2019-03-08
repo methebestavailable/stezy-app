@@ -205,3 +205,15 @@ button.btn.btn-default.submit_btn {
          font-size: 14px;
        }
     }
+@media only screen and (max-width: 375px)    {
+      button.request_demo {
+        padding: 8px 24px 10px 24px !important;
+    }
+    .headbanner{
+      font-size: 25px;
+  }
+  .empower_para{
+    margin-top: 14px;
+  }
+  
+}

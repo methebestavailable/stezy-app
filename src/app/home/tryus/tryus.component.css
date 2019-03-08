@@ -37,3 +37,8 @@
 .latest_update {
     text-align: center;
 }
+@media only screen and (max-width: 414px)    {
+    .try_us{
+        margin-bottom:0 !important;
+    }
+}
