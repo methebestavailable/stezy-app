@@ -187,7 +187,7 @@ ul.career_list li {
 .padd_left5{
     padding-left: 5px !important;
 }
-@media only screen and (max-width: 960px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px)  {
     .leadership_heading p{
         padding: 0;
     }
@@ -197,6 +197,10 @@ ul.career_list li {
     p.stezy_div {
         margin: 70px 0 0 0;
     }
+    .career_div{
+        margin-bottom: 70px;
+    }
+    
 }
 @media only screen and (max-width: 767px) {
     .leadership_heading p{

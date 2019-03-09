@@ -208,6 +208,30 @@ h4.result {
         margin-top: 14px;
     }
   }
+  @media only screen and (min-width: 768px) and (max-width:990px) {
+    .product_content{
+        padding: 20px 0 90px 0!important;
+    }
+    .watch_btn{
+        bottom: 9%;
+        left: 12%;
+    }
+    .product_content img{
+        margin-top: 50px;
+    }
+    .business_div p{
+        padding: 0 10px;
+    }
+    .accountability p{
+        padding: 0 153px;
+    }
+    h4.capabilities {
+        margin-top:30px;
+    }
+    h4.flexibility{
+        margin-top: 30px;
+    }
+  }
   @media screen and (min-width: 320px) and (max-width: 900px) and (orientation: landscape) {
     html {
       transform: rotate(-90deg);

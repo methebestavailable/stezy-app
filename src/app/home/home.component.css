@@ -399,6 +399,15 @@ h2.s_number {
     .slidernextshow .slidecontent {
         max-width: 50%;
     }
+    .domains_div h3 {
+      margin: 0;
+    }
+    .slidecontent {
+      padding: 90px 40px 40px 40px !important;
+  }
+  .business_div{
+    min-height: 360px;
+}
 }
 @media only screen and (max-width: 767px){
   .business_div.minheight320px {

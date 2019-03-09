@@ -222,7 +222,14 @@ thead tr td{
     height: 880px;
   }
 }
-
+@media only screen and (min-width: 768px) and (max-width: 990px){
+  .pricing_box{
+    height: inherit;
+}
+.price_heading{
+  padding-bottom: 130px;
+}
+}
 @media(max-width:767px) {
   .comparison_box h3 {
     padding: 5px 0 0 0;
