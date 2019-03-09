@@ -330,4 +330,7 @@ thead tr td{
 .mobnopaddleft {
     margin-top: 8px;
 }
+.heightFix{
+    height: 417px;
+}
 }
