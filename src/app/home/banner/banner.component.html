@@ -6,7 +6,7 @@
       <p class="empower_para">Empower your business with our user friendly solution
       for creation use and management of Blockchain.</p>
       <p class="sign_bt">
-        <button>SIGN UP FOR FREE</button>
+        <!-- <button>SIGN UP FOR FREE</button> -->
         <button (click)="open(content)" class="request_demo">REQUEST DEMO</button>
       </p> 
     </div>
@@ -61,7 +61,7 @@
           <div class="col-md-12">
             <div class="form-group">
               <img src="../../../assets/email.png">
-              <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+              <input type="text" class="form-control" id="email" placeholder="Enter email" name="Compant Email">
             </div>
           </div>
           <div class="col-md-6">
@@ -73,7 +73,12 @@
           <div class="col-md-6">
               <div class="form-group">
                   <img src="../../../assets/user.png">
-                <input type="text" class="form-control" id="employe" placeholder="No. of Employee" name="employe">
+                <select name="employe" form="carform" class="form-control" id="employe">
+                    <option value="volvo">No. of Employee</option>
+                    <option value="saab">Saab</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Audi</option>
+                  </select>
               </div>
             </div>
           <div class="col-md-6"> 
