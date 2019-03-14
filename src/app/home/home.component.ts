@@ -272,7 +272,7 @@ getDataC(data: SlidesOutputData) {
 }
 
 ngOnInit(): void{
-  debugger;
+
 }
 
 

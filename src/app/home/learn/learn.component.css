@@ -549,6 +549,9 @@ ul.nav.nav-tabs li.tab8.active{
     .tab_contant h4{
         font-size: 14px;
     }
+    .getting_ul li{
+        margin: 7px !important;
+    }
 }
 @media only screen and (max-width: 375px){
     .learn_banner h2 {

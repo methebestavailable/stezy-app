@@ -52,6 +52,7 @@ font-size: 32px;
   font-weight: 700;
   cursor: pointer;
   margin-right: 15px;
+  outline: none;
 }
 select#employe, select#contry, select#designation{
   text-indent: 20px;
@@ -179,7 +180,7 @@ button.btn.btn-default.submit_btn {
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
       .position_abso {
        background-position: 30px right !important;
-       max-width: 660px;
+       max-width: 570px;
        top: 30px;
        height: 330px!important;
       }
@@ -206,6 +207,7 @@ button.btn.btn-default.submit_btn {
          padding: 8px 10px 10px 10px;
          margin-right: 10px;
          font-size: 14px;
+         z-index: 99;
        }
     }
 @media only screen and (max-width: 375px)    {

@@ -277,6 +277,10 @@ h4.modal_title {
   .owl-nav .owl-next {
     top: 40px !important;
   }
+  .modal-dialog {
+    max-width: inherit !important;
+    width: 96% !important;
+}
 }
 
 @media(max-width:375px) {
