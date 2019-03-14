@@ -284,6 +284,14 @@ button.close {
    .login_user {
           width: 100%;
     }
+    button.btn.btn-default.submit_btn{
+      top: 0px;
+  }
+  .modal-dialog {
+    height: inherit;
+    margin: 0 auto 0px auto;
+    position: inherit;
+  }
 }
     .nav-link:hover{
         color: #4385f5 !important;

@@ -206,14 +206,20 @@ h4.result {
     h4.experties{
         margin-top: 14px;
     }
+    .watch_btn{
+        bottom: 2%;
+    }
+    .product_content img {
+        margin-top: 30px;
+    }
   }
+  
   @media only screen and (min-width: 768px) and (max-width:990px) {
     .product_content{
         padding: 20px 0 90px 0!important;
     }
     .watch_btn{
         bottom: 9%;
-        left: 12%;
     }
     .product_content img{
         margin-top: 50px;
