@@ -382,6 +382,12 @@ ul.nav.nav-tabs li.tab8.active{
     .getting_ul li h4{
        margin: 14px 0px;
     }
+    li.tab_contant:hover {
+        cursor: pointer !important;
+    }
+    a.homeclick {
+        cursor: pointer;
+    }
 @media only screen and (max-width: 1024px) and (max-width:1050px){
     .tab_contant {
         text-align: center;
@@ -542,7 +548,7 @@ ul.nav.nav-tabs li.tab8.active{
     .tab_contant{
         margin: 14px 12px 0px 0;
         height: 160px;
-        cursor: pointer;
+        cursor: pointer !important;
     }
     .tab_contant img {
         margin-top: 12px;
